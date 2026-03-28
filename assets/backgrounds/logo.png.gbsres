@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d964e783-262f-4a22-b996-167c471c11bb",
+  "name": "logo",
+  "symbol": "bg_logo",
+  "tileColors": "06168+",
+  "filename": "logo.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
