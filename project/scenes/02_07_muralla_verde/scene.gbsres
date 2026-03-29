@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "9e51ab7f-b001-422d-bf5d-3f797cfcdab7",
-  "_index": 2,
-  "name": "Intro",
-  "backgroundId": "9da87982-8465-4af2-944c-7f9870e4c78d",
+  "id": "99e69793-fa7d-4ab2-ae07-0ca36d806cab",
+  "_index": 20,
+  "name": "02_07_Muralla_Verde",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -16,17 +16,36 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_3",
-  "x": 288,
-  "y": 664,
+  "symbol": "scene_21",
+  "x": 1496,
+  "y": 1208,
   "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Muralla Verde",
+        "x": 1,
+        "y": 7,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "c483183a-e4be-4bdd-8fa1-bd3421b0e2b9"
+    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "c3d0cdd7-83bc-497a-a53e-021e9a8d12b4"
+      "id": "7d147b28-7321-4eb8-87e1-a3b50f1a5b41"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
+        "__collapse": true
+      },
+      "id": "d4b6c84a-3f87-470d-9039-d1bb922c28ab"
     },
     {
       "command": "EVENT_IF",
@@ -43,7 +62,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -51,45 +70,22 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "English Dialogue"
+                "Look! That's the\nGREEN WALL",
+                "That divides all \nthat is",
+                "from what's to be ",
+                "We need to cross \nit to get to",
+                "the PINK SIDE."
               ],
-              "__section": "layout",
+              "__section": "text",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "top",
+              "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "61029901-fe24-42c1-ba6d-bb6f1aa96235"
-          }
-        ],
-        "false": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Dialogo Español"
-              ],
-              "__section": "behavior",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "top",
-              "clearPrevious": true,
-              "showFrame": true,
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
@@ -98,25 +94,74 @@
               "closeDelayFrames": 30,
               "__collapse": true
             },
-            "id": "428da8ad-a4ea-4add-9389-b25d4dc578d3"
+            "id": "541c1ce9-f847-4e5c-97db-900f0cb5f416"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "¡Mira! Esa es la\nMURALLA VERDE",
+                "La que divide todo\nlo que fue",
+                "de lo que será.",
+                "Debemos cruzarla \npara llegar",
+                "al LADO ROSA."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "f0911116-9446-493f-a34e-1bd07b75acb9"
           }
         ]
       },
-      "id": "f98b9078-ecad-4cdb-b266-2953e55a605f"
+      "id": "7e79944e-9b18-4dc1-b498-f2e8011e4116"
     },
     {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "command": "EVENT_WAIT",
       "args": {
-        "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
-        "__collapse": true
+        "time": {
+          "type": "number",
+          "value": 2
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
       },
-      "id": "107d33c4-abaf-4646-9458-4d2dba4dcecc"
+      "id": "f55d2501-17ea-4c68-aec2-ddc927420722"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "PRESS UP",
+        "x": 1,
+        "y": 7,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "12c22981-8635-48be-9d4a-b5e4fd91f800"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "a"
+          "up"
         ],
         "override": true,
         "__scriptTabs": "press",
@@ -127,7 +172,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "a9f122a7-3fac-408f-b1b5-0fa5e21023db",
+              "sceneId": "5c6451c1-59aa-4e38-a0a9-f686b502b1f6",
               "x": {
                 "type": "number",
                 "value": 0
@@ -139,11 +184,11 @@
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "ca07f5f6-5a7d-47f9-a413-69f01bff9e23"
+            "id": "8f8b3990-7922-4c5b-bc69-9215599e266d"
           }
         ]
       },
-      "id": "3e145c88-d95f-4f5b-af5c-d554187ecfde"
+      "id": "70f5a76d-0389-4687-99ea-fef55670ae56"
     }
   ],
   "playerHit1Script": [],

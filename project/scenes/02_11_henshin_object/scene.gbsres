@@ -1,0 +1,282 @@
+{
+  "_resourceType": "scene",
+  "id": "3ec29ada-9c7f-4274-9720-ad81ff9ef9e0",
+  "_index": 24,
+  "name": "02_11_Henshin_Object",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "dmg",
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_25",
+  "x": 2376,
+  "y": 1208,
+  "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "HENSHIN OBJ",
+        "x": 5,
+        "y": 7,
+        "location": "background"
+      },
+      "id": "07a36495-64e7-4140-ac09-c396a7e1a964"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "64bbd90a-d1ac-4218-a6e0-4d7d6e66e0e2"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
+        "__collapse": true
+      },
+      "id": "ad29fc2c-93a6-4810-883d-8d84032a9ad1"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "This will help!",
+                "This is the\nHENSHINATOR"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "16360319-ea94-4164-a77e-efce242cfec1"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " like for \n eyelashes?"
+              ],
+              "__section": "text",
+              "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "4818c3c7-024c-45a9-a111-a76b7799ff28"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "HA!",
+                "This is funnier\nin spanish...",
+                "This will give you\none of my powers",
+                "Maybe it's not \nwhat it was before",
+                "But if we combine\nour powers,",
+                "We might be able\nto succeed!",
+                "This will turn \nyou into your \ntrue self!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "4d75d5a1-1129-4347-9df7-56390f5f77a0"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "¡Con esto tienes!",
+                "Este es el \nHENSHINADOR"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "e073136f-c44c-4deb-8f0a-da10c22a4d87"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " ¿Para las\n pestañas?"
+              ],
+              "__section": "text",
+              "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "81d70814-f547-4acb-ad19-e7b6f94e8427"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "¡JUAS JUAS!",
+                "¡Se pronuncia\nJENSHINADOR!",
+                "Esto te dará una\nde mis habilidades",
+                "Tal vez ya no sea \nlo que era antes",
+                "Pero a lo mejor y\ncombinando nuestro",
+                "poder juntos, \nesto podrá salir.",
+                "Esto te convertirá\nen tu verdadero yo"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "764eddfb-c2ee-4826-8dac-2252fd6b194d"
+          }
+        ]
+      },
+      "id": "9be7f18e-b5b9-458e-aeca-6decf4640742"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "a3cb50ad-67d0-437e-94bd-4c23b7bb617b",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "e679a9c9-0736-46fc-8c14-9dcd8f1b966f"
+          }
+        ]
+      },
+      "id": "c933eee0-56f9-44a8-8a81-abcf302988ff"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

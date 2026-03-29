@@ -15,6 +15,16 @@
       "id": "0",
       "name": "Language",
       "symbol": "var_language_1"
+    },
+    {
+      "id": "7cebdb35-585d-4fd6-a011-cb08fce04150__L0",
+      "name": "mash_count",
+      "symbol": "var_mash_count"
+    },
+    {
+      "id": "7cebdb35-585d-4fd6-a011-cb08fce04150__L1",
+      "name": "mash_goal",
+      "symbol": "var_mash_goal"
     }
   ],
   "constants": []

@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
-  "id": "4b696e87-b8b9-41b7-98c8-725011e1f8d1",
-  "_index": 8,
-  "name": "Room BG",
+  "id": "b6df2eca-443d-488f-8c5f-45cb91f41224",
+  "_index": 16,
+  "name": "02_03_Crazy Darkness",
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
   "width": 20,
@@ -16,19 +16,19 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_9",
-  "x": 856,
-  "y": 664,
+  "symbol": "scene_17",
+  "x": 664,
+  "y": 1208,
   "script": [
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "Room BG",
+        "text": "Vero Sleeping\nDark Cloud above",
         "x": 1,
         "y": 7,
         "location": "background"
       },
-      "id": "cbd8681c-4745-4589-a3f8-0eb82a78218a"
+      "id": "4b582020-ba3a-42f1-877b-e472b6d3d261"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -36,7 +36,7 @@
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "0bcee73e-3530-4a22-976b-951bc9003f9a"
+      "id": "526c7b9c-5e18-48ae-9f80-e13a1705e7b7"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -44,7 +44,7 @@
         "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
         "__collapse": true
       },
-      "id": "77fcc271-f6e7-4e82-97b4-d56aacd5e9ae"
+      "id": "5d285bfb-6f41-400a-87a9-bbffe87bcc16"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -61,7 +61,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "c1ac7397-040c-49e4-a662-41eaa6b0cce7",
+              "sceneId": "4ca3e544-6968-4e6d-9d6a-d15a89504390",
               "x": {
                 "type": "number",
                 "value": 0
@@ -73,11 +73,11 @@
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "2901e0c5-0d80-496d-a197-17d8359f0459"
+            "id": "496e943c-04dc-4486-a1ed-4bb6eb1685fe"
           }
         ]
       },
-      "id": "decc5a71-4668-40a3-9e3c-fb484d1a15d5"
+      "id": "fc05f39d-bc14-45ca-8907-46118dacb406"
     }
   ],
   "playerHit1Script": [],

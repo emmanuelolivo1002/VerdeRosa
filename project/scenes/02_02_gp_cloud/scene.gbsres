@@ -1,0 +1,178 @@
+{
+  "_resourceType": "scene",
+  "id": "7cebdb35-585d-4fd6-a011-cb08fce04150",
+  "_index": 15,
+  "name": "02_02_GP_Cloud",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "dmg",
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_16",
+  "x": 472,
+  "y": 1200,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": false
+      },
+      "id": "9ad8faf7-6d7e-4df7-9540-17bd46ca7b51"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L1",
+        "value": {
+          "type": "number",
+          "value": 50
+        },
+        "__collapse": false
+      },
+      "id": "54337f58-c2d9-4831-9b03-c446a9fd4e99"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Fight Intrusive \nThoughts",
+        "x": 1,
+        "y": 1,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "c5fdccde-2733-4a09-82cf-d6035f3f0b00"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "e448096c-a099-4f57-8930-c6431edcac6a"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
+        "__collapse": true
+      },
+      "id": "ea97dddd-cd22-44a9-af8b-6c08ebbe19ae"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "add",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              }
+            },
+            "id": "82024439-034b-4aef-982e-1e315ce72ef8"
+          },
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "Curent: $L0$\nGoal: $L1$",
+              "x": 8,
+              "y": 7,
+              "location": "background"
+            },
+            "id": "e983e4a7-d8e5-46af-83ca-a85248b13349"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "L1"
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "a34e4630-b43e-4187-bcae-ac32a9be3c64"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "b6df2eca-443d-488f-8c5f-45cb91f41224",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "2d403c84-356d-405c-8312-288c47ba7793"
+                }
+              ],
+              "false": []
+            },
+            "id": "ac64bb09-0d6a-4390-80f9-4f1e3ba8943f"
+          }
+        ]
+      },
+      "id": "b2c52cc8-80bf-4cd5-a92b-965b6071a15a"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

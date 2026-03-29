@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
-  "id": "a9f122a7-3fac-408f-b1b5-0fa5e21023db",
-  "_index": 6,
-  "name": "Vero Introduction",
+  "id": "4b696e87-b8b9-41b7-98c8-725011e1f8d1",
+  "_index": 8,
+  "name": "01_04_Room BG",
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
   "width": 20,
@@ -16,27 +16,27 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_7",
-  "x": 480,
+  "symbol": "scene_9",
+  "x": 856,
   "y": 664,
   "script": [
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "Vero Introduction",
+        "text": "Room BG",
         "x": 1,
         "y": 7,
         "location": "background"
       },
-      "id": "85c8a8fa-abea-4e46-abb1-ab96438eea45"
+      "id": "cbd8681c-4745-4589-a3f8-0eb82a78218a"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$",
-        "__collapse": false
+        "__collapse": true
       },
-      "id": "31fe4498-f72f-45be-a03b-483165e38f5f"
+      "id": "0bcee73e-3530-4a22-976b-951bc9003f9a"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -44,7 +44,7 @@
         "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
         "__collapse": true
       },
-      "id": "e9070765-728e-4b32-b4d0-7835d264d8c1"
+      "id": "77fcc271-f6e7-4e82-97b4-d56aacd5e9ae"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -54,14 +54,14 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "79ff2074-34ac-4b97-9053-bc8e161e6f3b",
+              "sceneId": "c1ac7397-040c-49e4-a662-41eaa6b0cce7",
               "x": {
                 "type": "number",
                 "value": 0
@@ -73,11 +73,11 @@
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "ba0ba5f0-e765-4410-9598-541b631b4d77"
+            "id": "2901e0c5-0d80-496d-a197-17d8359f0459"
           }
         ]
       },
-      "id": "477a62c5-815d-405f-8435-b467ae05120f"
+      "id": "decc5a71-4668-40a3-9e3c-fb484d1a15d5"
     }
   ],
   "playerHit1Script": [],

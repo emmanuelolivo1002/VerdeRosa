@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
-  "id": "cb5c82d0-3bca-4006-9e1c-1b80c7b3f68b",
-  "_index": 12,
-  "name": "FINDER",
+  "id": "722920db-fc03-46cb-8d3d-9cf99a4d4177",
+  "_index": 18,
+  "name": "02_05_Xolotl_face",
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
   "width": 20,
@@ -16,19 +16,19 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_13",
-  "x": 480,
-  "y": 904,
+  "symbol": "scene_19",
+  "x": 1080,
+  "y": 1208,
   "script": [
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "FINDER \nGameplay",
-        "x": 1,
+        "text": "o       o\n    w",
+        "x": 5,
         "y": 7,
         "location": "background"
       },
-      "id": "fabd82c4-9239-4230-9adb-cd4a8faf495e"
+      "id": "23a7354f-57c6-4cc9-b3b2-d7f978a7359b"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -36,7 +36,7 @@
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "bb348e4d-44e8-403c-a4e0-8e472e517a51"
+      "id": "fdb8a978-ecb1-4587-8699-4292b68599c7"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -44,7 +44,7 @@
         "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
         "__collapse": true
       },
-      "id": "31425921-6e85-4cdb-ba5f-e5e5cfa5b1c5"
+      "id": "bbf14dc8-2add-424d-b740-e6f0ce614f28"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -61,7 +61,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "b57488e3-60c1-4f65-9b5b-3ffe1ddafa94",
+              "sceneId": "cf2b66a0-c113-4324-b530-fcd1de070171",
               "x": {
                 "type": "number",
                 "value": 0
@@ -73,11 +73,11 @@
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "48c1100a-2733-4c84-a320-87af28b7bbf4"
+            "id": "5774ec4c-1163-410d-acdd-750452729c3d"
           }
         ]
       },
-      "id": "b53c9f38-33ae-4341-8954-8e1493f3c8a9"
+      "id": "20761627-db6e-4389-a061-69bb61083502"
     }
   ],
   "playerHit1Script": [],
