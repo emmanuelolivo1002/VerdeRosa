@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "9e51ab7f-b001-422d-bf5d-3f797cfcdab7",
-  "_index": 2,
-  "name": "Intro",
-  "backgroundId": "9da87982-8465-4af2-944c-7f9870e4c78d",
+  "id": "c1ac7397-040c-49e4-a662-41eaa6b0cce7",
+  "_index": 9,
+  "name": "Vero Desk",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -16,17 +16,50 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_3",
-  "x": 288,
+  "symbol": "scene_10",
+  "x": 1040,
   "y": 664,
   "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Vero Desk",
+        "x": 1,
+        "y": 7,
+        "location": "background"
+      },
+      "id": "d5eb9b1b-ae62-400b-bb6d-d19b7b554e6e"
+    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "c3d0cdd7-83bc-497a-a53e-021e9a8d12b4"
+      "id": "a2639014-2b79-4167-a9af-8ef8f2216a4f"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
+        "__collapse": true
+      },
+      "id": "3fa4629b-dc4c-42d5-81d5-e4876e9af8d2"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "49492924-bc73-489f-ad98-1f5eec032859"
     },
     {
       "command": "EVENT_IF",
@@ -51,9 +84,18 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "English Dialogue"
+                "It is clear that \nfor humans,",
+                "Death is imminent.",
+                "Always keeping \nthis in mind:",
+                "\"There is no \nworse punishment ",
+                "Than leaving this \nworld alone.\"",
+                "Yet in my days \non earth,",
+                "I live fighting \nanother war",
+                "Against what I \ncannot control:",
+                "I do not fear \ndying alone...",
+                "It is living it \nwhat terrifies me."
               ],
-              "__section": "layout",
+              "__section": "text",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
@@ -68,9 +110,10 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": false
             },
-            "id": "61029901-fe24-42c1-ba6d-bb6f1aa96235"
+            "id": "e0774d26-3cad-499b-bd0d-50ec397cfb61"
           }
         ],
         "false": [
@@ -78,9 +121,18 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Dialogo Español"
+                "Evidente es que \nal humano",
+                "La muerte llega \ninminente",
+                "Llevando esto \nsiempre en mente:",
+                "\"No hay castigo \nmás tirano",
+                "Que irse con nadie\na la mano\"",
+                "Más mis días en la\ntierra",
+                "Vivo luchando otra\nguerra",
+                "Contra lo que no \ncontrolo:",
+                "No le temo a \nmorir solo...",
+                "Vivirlo es lo que \nme aterra"
               ],
-              "__section": "behavior",
+              "__section": "text",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
@@ -89,28 +141,20 @@
               "textHeight": 5,
               "position": "top",
               "clearPrevious": true,
-              "showFrame": true,
+              "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "428da8ad-a4ea-4add-9389-b25d4dc578d3"
+            "id": "52b43151-683d-45ef-a29b-d86d4371c21f"
           }
         ]
       },
-      "id": "f98b9078-ecad-4cdb-b266-2953e55a605f"
-    },
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
-        "__collapse": true
-      },
-      "id": "107d33c4-abaf-4646-9458-4d2dba4dcecc"
+      "id": "b6f8e08d-6642-4185-9966-7ccf168e6478"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -120,14 +164,14 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "a9f122a7-3fac-408f-b1b5-0fa5e21023db",
+              "sceneId": "976c3d52-4954-49e0-8add-084441604673",
               "x": {
                 "type": "number",
                 "value": 0
@@ -139,11 +183,11 @@
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "ca07f5f6-5a7d-47f9-a413-69f01bff9e23"
+            "id": "f8f0c019-9b89-4af6-9a81-76f8a3a82494"
           }
         ]
       },
-      "id": "3e145c88-d95f-4f5b-af5c-d554187ecfde"
+      "id": "5ba7cd79-fb42-41ac-9b0b-655a26ca50e9"
     }
   ],
   "playerHit1Script": [],

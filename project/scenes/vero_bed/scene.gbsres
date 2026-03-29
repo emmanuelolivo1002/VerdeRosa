@@ -1,0 +1,87 @@
+{
+  "_resourceType": "scene",
+  "id": "b57488e3-60c1-4f65-9b5b-3ffe1ddafa94",
+  "_index": 13,
+  "name": "Vero Bed",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "dmg",
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_14",
+  "x": 696,
+  "y": 904,
+  "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Vero turns \noff phone\nCries T-T",
+        "x": 1,
+        "y": 7,
+        "location": "background"
+      },
+      "id": "858e824d-64cf-4394-9d2b-c8bb59e8e962"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "6f7c586c-60a5-4bdd-b0bb-677bc4a91c7e"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
+        "__collapse": true
+      },
+      "id": "2e3664c4-9eba-441e-bad8-fc0f5c0b0eed"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9e51ab7f-b001-422d-bf5d-3f797cfcdab7",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "e0be2adb-2f81-4ac8-a431-9f99c0e75394"
+          }
+        ]
+      },
+      "id": "e0cc8e94-0ff1-4804-8309-b8e5101fe7dc"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}
