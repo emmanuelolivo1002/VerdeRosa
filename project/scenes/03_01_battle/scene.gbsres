@@ -97,13 +97,13 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                " ..."
+                "..."
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
               "textHeight": 5,
               "position": "bottom",
