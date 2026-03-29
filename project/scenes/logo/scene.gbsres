@@ -20,7 +20,7 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 240,
+  "x": 296,
   "y": 352,
   "script": [
     {

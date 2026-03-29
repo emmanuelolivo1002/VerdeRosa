@@ -1,0 +1,92 @@
+{
+  "_resourceType": "script",
+  "id": "0451983f-f2db-4613-a748-ef500ef67b9c",
+  "name": "Open Pause Menu",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {},
+            "id": "6aeaaf12-8494-48e8-8936-a92dccf83aa4"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "45a1c7ba-d461-4059-9f3d-db9f25ff95b2",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2",
+                    "__collapse": true
+                  },
+                  "id": "e7f490fa-3173-4900-a65c-5f516ebd1ef0"
+                }
+              ],
+              "false": []
+            },
+            "id": "641063c0-10c8-48ca-b826-e61da33cb084"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "09782a59-88db-403e-ba3e-8bf33eb69501",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "b738df75-1d9a-4868-b81a-57e2245d5a2f"
+          }
+        ]
+      },
+      "id": "10b411d2-4e3e-4f0e-a3df-28590148b874"
+    }
+  ]
+}
