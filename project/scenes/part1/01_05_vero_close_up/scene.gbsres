@@ -1,0 +1,88 @@
+{
+  "_resourceType": "scene",
+  "id": "976c3d52-4954-49e0-8add-084441604673",
+  "_index": 10,
+  "name": "part1/01_05_Vero Close Up",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "dmg",
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 1232,
+  "y": 664,
+  "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Vero Close Up with \nPhone in hand",
+        "x": 1,
+        "y": 7,
+        "location": "background"
+      },
+      "id": "f7517875-3bb7-43e0-8b3c-2291d251e0af"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "0902afc0-98d0-454e-991c-12eb6a033de0"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
+        "__collapse": true
+      },
+      "id": "00dede80-fbad-416a-b488-7b7c7326ccd7"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9258eda2-b420-4976-87c1-42f465d17c2d",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "bc07ea75-e510-40aa-9606-f887854aca18"
+          }
+        ]
+      },
+      "id": "dfee423b-12a8-4f35-86a9-d7b667481bf5"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true,
+  "labelColor": "blue"
+}

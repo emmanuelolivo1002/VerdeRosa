@@ -1,0 +1,89 @@
+{
+  "_resourceType": "scene",
+  "id": "79ff2074-34ac-4b97-9053-bc8e161e6f3b",
+  "_index": 7,
+  "name": "part1/01_03_Door",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "dmg",
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 672,
+  "y": 664,
+  "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Vero Door",
+        "x": 1,
+        "y": 7,
+        "location": "background"
+      },
+      "id": "b3e4c5b9-7753-44c3-bf92-a6e0c7c325e9"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "1293f633-55e0-4e7e-8726-807dacd6df87"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
+        "__collapse": true
+      },
+      "id": "522d260a-4a2e-428e-89b5-1ae65ce942b1"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "4b696e87-b8b9-41b7-98c8-725011e1f8d1",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "be17937f-da2b-4a72-98e2-68e4ec0f6f1b"
+          }
+        ]
+      },
+      "id": "fe1d9744-3885-43da-96e4-966b13e86820"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true,
+  "labelColor": "blue"
+}

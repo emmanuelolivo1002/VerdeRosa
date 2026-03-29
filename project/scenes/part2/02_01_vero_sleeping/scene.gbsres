@@ -1,0 +1,88 @@
+{
+  "_resourceType": "scene",
+  "id": "f1c1df73-3680-4c3d-b2ac-63669636db60",
+  "_index": 14,
+  "name": "part2/02_01_Vero Sleeping",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "dmg",
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_15",
+  "x": 272,
+  "y": 1208,
+  "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Vero Sleeping\nDark Cloud above",
+        "x": 1,
+        "y": 7,
+        "location": "background"
+      },
+      "id": "9e5fe392-1961-4f03-8b16-b67a244a1748"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "af17bf1f-68a8-44d1-bd2d-62ccf796dc5c"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
+        "__collapse": true
+      },
+      "id": "afe5af6d-c598-4685-96e8-ed56f82569c1"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "7cebdb35-585d-4fd6-a011-cb08fce04150",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "ab150347-c003-4c16-9db9-ac10e85dd353"
+          }
+        ]
+      },
+      "id": "7c1b8c01-2cec-4d54-8a81-332dbfc514eb"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true,
+  "labelColor": "green"
+}

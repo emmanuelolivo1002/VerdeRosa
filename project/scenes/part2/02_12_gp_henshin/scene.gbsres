@@ -1,0 +1,426 @@
+{
+  "_resourceType": "scene",
+  "id": "a3cb50ad-67d0-437e-94bd-4c23b7bb617b",
+  "_index": 25,
+  "name": "part2/02_12_GP_Henshin",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "dmg",
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_26",
+  "x": 472,
+  "y": 1440,
+  "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Henshin",
+        "x": 5,
+        "y": 7,
+        "location": "background"
+      },
+      "id": "1014c3b2-e911-45a2-a23e-5ca992e592f0"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "69af7209-cd3b-4bdf-9a4b-18b2120fdb1f"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
+        "__collapse": true
+      },
+      "id": "53cead3f-24a2-4f5f-84d7-8835109f1e93"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true,
+        "__label": "Dialogue"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Ok, listen to my\ninstructions"
+              ],
+              "__section": "behavior",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "b5d76009-0852-4be6-b554-d878f84c82b3"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Ok, escucha mis \ninstrucciones"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "e21b0794-4608-409c-bf26-fd8cd81ac682"
+          }
+        ]
+      },
+      "id": "c63c4138-5d67-4d58-9da1-67894cc0b3c9"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true,
+        "__label": "Instruction UP"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
+            "args": {
+              "text": [
+                "Press UP"
+              ],
+              "__scriptTabs": "layout",
+              "boxHeight": 4,
+              "boxWidth": 20,
+              "boxX": 0,
+              "boxY": 1,
+              "showBorder": "true",
+              "showActors": "true",
+              "clearPrevious": "true",
+              "textInv": "false",
+              "textX": 1,
+              "textY": 2,
+              "closeWhen": "notModal",
+              "closeButton": "any",
+              "avatarId": ""
+            },
+            "id": "55d6624b-0c4a-4e6a-940a-68ca81e4e9a2"
+          }
+        ],
+        "false": [
+          {
+            "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
+            "args": {
+              "text": [
+                "Oprime Arriba"
+              ],
+              "__scriptTabs": "layout",
+              "boxHeight": 4,
+              "boxWidth": 20,
+              "boxX": 0,
+              "boxY": 1,
+              "showBorder": "true",
+              "showActors": "true",
+              "clearPrevious": "true",
+              "textInv": "false",
+              "textX": 1,
+              "textY": 2,
+              "closeWhen": "notModal",
+              "closeButton": "any",
+              "avatarId": ""
+            },
+            "id": "5661c7f1-63ea-4031-b80b-11afa393fc54"
+          }
+        ]
+      },
+      "id": "c03b93cb-c8d1-4b2d-9c56-26e8a88da624"
+    },
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "up"
+        ],
+        "__collapse": false
+      },
+      "id": "9a27fc37-b996-42f9-9bd6-8f69d7145437"
+    },
+    {
+      "command": "EVENT_OVERLAY_HIDE",
+      "args": {
+        "__collapse": false
+      },
+      "id": "796b8c11-6347-4376-b78b-3bc70a52b367"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true,
+        "__label": "Instruction DOWN"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
+            "args": {
+              "text": [
+                "Press DOWN"
+              ],
+              "__scriptTabs": "text",
+              "boxHeight": 4,
+              "boxWidth": 20,
+              "boxX": 0,
+              "boxY": 1,
+              "showBorder": "true",
+              "showActors": "true",
+              "clearPrevious": "true",
+              "textInv": "false",
+              "textX": 1,
+              "textY": 2,
+              "closeWhen": "notModal",
+              "closeButton": "any",
+              "avatarId": ""
+            },
+            "id": "be9973c9-3f88-4459-bfd7-aae137cbdb13"
+          }
+        ],
+        "false": [
+          {
+            "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
+            "args": {
+              "text": [
+                "Oprime ABAJO"
+              ],
+              "__scriptTabs": "text",
+              "boxHeight": 4,
+              "boxWidth": 20,
+              "boxX": 0,
+              "boxY": 1,
+              "showBorder": "true",
+              "showActors": "true",
+              "clearPrevious": "true",
+              "textInv": "false",
+              "textX": 1,
+              "textY": 2,
+              "closeWhen": "notModal",
+              "closeButton": "any",
+              "avatarId": ""
+            },
+            "id": "08f651af-4801-4c49-bc4a-2edfe6fcb688"
+          }
+        ]
+      },
+      "id": "fa97df35-9770-47dc-a5d8-5edf426dc910"
+    },
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "down"
+        ]
+      },
+      "id": "25a23c58-94b0-409f-81eb-9d97e2f7240d"
+    },
+    {
+      "command": "EVENT_OVERLAY_HIDE",
+      "args": {
+        "__collapse": false
+      },
+      "id": "124950a3-e75c-443a-a791-6b84c92b11ae"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false,
+        "__label": "Instruction DOWN"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
+            "args": {
+              "text": [
+                "Press A to Henshin"
+              ],
+              "__scriptTabs": "layout",
+              "boxHeight": 4,
+              "boxWidth": 20,
+              "boxX": 0,
+              "boxY": 1,
+              "showBorder": "true",
+              "showActors": "true",
+              "clearPrevious": "true",
+              "textInv": "false",
+              "textX": 1,
+              "textY": 2,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "avatarId": ""
+            },
+            "id": "6bfd86b7-b7c8-4e89-9f0d-91c89de3a202"
+          }
+        ],
+        "false": [
+          {
+            "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
+            "args": {
+              "text": [
+                "Oprime A para \nel HENSHIN"
+              ],
+              "__scriptTabs": "layout",
+              "boxHeight": 4,
+              "boxWidth": 20,
+              "boxX": 0,
+              "boxY": 1,
+              "showBorder": "true",
+              "showActors": "true",
+              "clearPrevious": "true",
+              "textInv": "false",
+              "textX": 1,
+              "textY": 2,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "avatarId": ""
+            },
+            "id": "f2c4640a-8e40-4473-a064-1777ec4492c6"
+          }
+        ]
+      },
+      "id": "1391dd24-32bf-4b7c-8b80-522d862d36dc"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "HENSHIN!!",
+        "x": 5,
+        "y": 7,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "88c9e0ba-719d-4a74-bcca-c519c2760fdc"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "114f6c24-0d8e-498b-8432-278cade85e52",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "8a66c7b4-ecb9-4ec3-8381-d46cd3eae8ce"
+          }
+        ]
+      },
+      "id": "0ec0fd6a-8e8c-4092-96e9-c1c26fef7a9c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true,
+  "labelColor": "green"
+}
