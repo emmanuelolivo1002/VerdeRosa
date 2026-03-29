@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
-  "id": "114f6c24-0d8e-498b-8432-278cade85e52",
-  "_index": 26,
-  "name": "02_12_HENSHIN_ANIM",
+  "id": "74a83fc6-cf87-4dda-952d-b34c8ede157e",
+  "_index": 27,
+  "name": "03_01_Battle",
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
   "width": 20,
@@ -16,19 +16,19 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_27",
-  "x": 656,
-  "y": 1440,
+  "symbol": "scene_28",
+  "x": 256,
+  "y": 1816,
   "script": [
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "HENSHIN ANIMATION",
-        "x": 5,
+        "text": "Vero VS Angustiana",
+        "x": 1,
         "y": 7,
         "location": "background"
       },
-      "id": "6393a9a4-e308-45aa-aed2-ced796007538"
+      "id": "7cf15b4d-20d3-468b-a653-64d645f61c8b"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -36,7 +36,7 @@
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "2357a258-bcf1-4480-9fbb-183a83b83c8a"
+      "id": "a9be3c6f-916f-45c6-9357-6de15255ddcb"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -44,7 +44,7 @@
         "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
         "__collapse": true
       },
-      "id": "1638c991-b694-4206-ac96-df5fc73752ac"
+      "id": "b3814068-6d8b-45cc-ba60-5656378dc9fd"
     },
     {
       "command": "EVENT_IF",
@@ -69,8 +69,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "You did it!",
-                "This is your \ntrue self!"
+                "Listen Vero,",
+                "What you were \ntrying before ",
+                "won't work this\ntime"
               ],
               "__section": "text",
               "avatarId": "",
@@ -90,13 +91,13 @@
               "closeDelayFrames": 30,
               "__collapse": false
             },
-            "id": "45feafa6-8abb-4812-a0b6-8c254ac0e068"
+            "id": "a96d7cd2-41b6-4fde-b270-689ddc568584"
           },
           {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                " Woah!"
+                " ..."
               ],
               "__section": "text",
               "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
@@ -115,13 +116,16 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "8165ef10-9bf3-4b81-b6d7-a35fe744e43f"
+            "id": "93985a1d-fa48-4ad9-ba18-0a2806ccc9ad"
           },
           {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Now it's time to\nbattle!"
+                "To defeat this \nkind of enemy",
+                "we need PATIENCE.",
+                "If you do what I\nsay we'll succeed",
+                "Understood?"
               ],
               "__section": "text",
               "avatarId": "",
@@ -141,42 +145,13 @@
               "closeDelayFrames": 30,
               "__collapse": false
             },
-            "id": "61bf03a5-ccd5-4baa-8fdc-a2b8fac10026"
-          }
-        ],
-        "false": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "¡Lo lograste!",
-                "¡Este es tu\nverdadero yo!"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": false
-            },
-            "id": "62268a75-b12d-4594-8f88-c90e1b00975a"
+            "id": "3902c4ef-9fb0-45ca-b2d1-081f0a013929"
           },
           {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                " ¡Orale!"
+                " OK!"
               ],
               "__section": "text",
               "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
@@ -196,13 +171,13 @@
               "closeDelayFrames": 30,
               "__collapse": false
             },
-            "id": "b0757d0b-9534-44a5-bbff-f677942285fd"
+            "id": "f6e15c84-7910-4886-aff0-f1bff10b3a3c"
           },
           {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "¡Es hora de \nluchar!"
+                "Follow my \ninstructions!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -222,11 +197,147 @@
               "closeDelayFrames": 30,
               "__collapse": false
             },
-            "id": "2500888d-5acc-4646-8113-0026b888fc65"
+            "id": "b5b8001f-6773-4425-bbaa-aeaf1a0d0552"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Escucha Vero, ",
+                "Lo que intentaste\nprimero no servirá\nesta vez."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "ab337f1f-c400-495b-86a4-b0b1268ca4b2"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "..."
+              ],
+              "__section": "text",
+              "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "c193cb2c-b2f1-4b11-bcf8-d12d1a47cf4a"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Vencer este tipo\nde enemigos",
+                "requiere paciencia.\n",
+                "Si haces lo que\ndigo venceremos",
+                "¿Entiendes?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "550d3001-0bf9-4304-b989-d16ed859414b"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "¡OK!"
+              ],
+              "__section": "text",
+              "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "2cc30805-e271-4795-b1bb-e0797fdf741d"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "¡Sigue mis\ninstrucciones!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "a0cb5bea-f30f-4565-856d-0b835eeb6f28"
           }
         ]
       },
-      "id": "f3290bda-2e14-4e74-8ec7-3bc9adf20986"
+      "id": "293089e9-5fed-4cdb-ae59-650b2669b118"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -243,7 +354,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "74a83fc6-cf87-4dda-952d-b34c8ede157e",
+              "sceneId": "78d31eda-80bb-49a3-b95c-ebf81f0ff957",
               "x": {
                 "type": "number",
                 "value": 0
@@ -255,11 +366,11 @@
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "955291f7-053d-4199-9428-59d279fac8d3"
+            "id": "0d5a5bad-99fd-4541-a19b-436df892408c"
           }
         ]
       },
-      "id": "eb8613c5-4ba9-4fd6-b141-3611ba8d4b30"
+      "id": "af02299e-b6e0-4ad0-a687-5971e5c39c8f"
     }
   ],
   "playerHit1Script": [],

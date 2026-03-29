@@ -1,0 +1,87 @@
+{
+  "_resourceType": "scene",
+  "id": "78d31eda-80bb-49a3-b95c-ebf81f0ff957",
+  "_index": 28,
+  "name": "03_02_GP_Battle",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "dmg",
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_29",
+  "x": 456,
+  "y": 1816,
+  "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Battle Gameplay",
+        "x": 5,
+        "y": 7,
+        "location": "background"
+      },
+      "id": "e8e0afbc-ddf9-4854-bc10-7415f4ed3049"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "52ff75c8-baab-4dc0-9792-4be276d38e0e"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
+        "__collapse": true
+      },
+      "id": "72adada6-9345-485e-9beb-730e12c598a8"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "954b443e-620c-4d40-b8b8-36e588436551",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "158e80fa-f4be-4e6f-ba29-9a84132ff499"
+          }
+        ]
+      },
+      "id": "fa44448f-efbe-4575-aa18-5d73d14327b0"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

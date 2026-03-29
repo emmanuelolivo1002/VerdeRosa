@@ -1,0 +1,80 @@
+{
+  "_resourceType": "scene",
+  "id": "9d7a8093-d43f-425e-8799-3d3058fd58c9",
+  "_index": 35,
+  "name": "04_05_Side_Table_Henshin",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "dmg",
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_37",
+  "x": 1120,
+  "y": 2110.6666666666665,
+  "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Zoom in\nHENSHINATOR\nTo be continued..",
+        "x": 2,
+        "y": 7,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "92cfe106-1d52-4c16-ba23-1657f7fb29c4"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "0a8b6084-233c-40ec-8ed5-16b2c979434e"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9a401a01-cc29-4a61-ae28-e988a485b1ee",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "3fb3d641-6a64-4e10-8040-bf869a22dec6"
+          }
+        ]
+      },
+      "id": "4d656303-2d0d-4676-ab2d-47937907fd5d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}
