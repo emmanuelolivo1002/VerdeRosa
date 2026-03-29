@@ -25,6 +25,21 @@
       "id": "7cebdb35-585d-4fd6-a011-cb08fce04150__L1",
       "name": "mash_goal",
       "symbol": "var_mash_goal"
+    },
+    {
+      "id": "78d31eda-80bb-49a3-b95c-ebf81f0ff957__L0",
+      "name": "sequence_step",
+      "symbol": "var_sequence_step"
+    },
+    {
+      "id": "78d31eda-80bb-49a3-b95c-ebf81f0ff957__L1",
+      "name": "hold_frames",
+      "symbol": "var_hold_frames"
+    },
+    {
+      "id": "78d31eda-80bb-49a3-b95c-ebf81f0ff957__L2",
+      "name": "sequence_failed",
+      "symbol": "var_sequence_failed"
     }
   ],
   "constants": []
