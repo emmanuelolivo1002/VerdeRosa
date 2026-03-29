@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "78375cbe-02f9-4029-954b-28eeceb13b05",
+  "name": "pause-eng",
+  "symbol": "bg_pause_eng",
+  "tileColors": "01168+",
+  "filename": "pause-eng.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

@@ -14,8 +14,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_2",
-  "x": 496,
-  "y": 112,
+  "x": 472,
+  "y": 352,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",

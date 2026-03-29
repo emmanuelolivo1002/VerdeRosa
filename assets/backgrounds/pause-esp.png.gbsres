@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "fc21bec6-1fd0-4cda-b173-534047de2c13",
+  "name": "pause-esp",
+  "symbol": "bg_pause_esp",
+  "tileColors": "01168+",
+  "filename": "pause-esp.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
