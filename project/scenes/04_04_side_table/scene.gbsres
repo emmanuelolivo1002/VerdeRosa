@@ -17,7 +17,7 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_36",
-  "x": 920,
+  "x": 896,
   "y": 2128,
   "script": [
     {
@@ -76,5 +76,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true
+  "autoFadeEventCollapse": true,
+  "labelColor": "yellow"
 }

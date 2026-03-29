@@ -23,7 +23,7 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "HENSHIN ANIMATION",
+        "text": "HENSHIN \nANIMATION",
         "x": 5,
         "y": 7,
         "location": "background"
@@ -265,5 +265,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true
+  "autoFadeEventCollapse": true,
+  "labelColor": "green"
 }

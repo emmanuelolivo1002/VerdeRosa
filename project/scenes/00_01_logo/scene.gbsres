@@ -2,26 +2,26 @@
   "_resourceType": "scene",
   "id": "3cce52af-1feb-4bca-93c8-3204d9e0900b",
   "_index": 0,
-  "name": "Logo",
-  "backgroundId": "d964e783-262f-4a22-b996-167c471c11bb",
-  "tilesetId": "",
+  "type": "LOGO",
+  "name": "00_01_Logo",
+  "symbol": "scene_1",
+  "x": 296,
+  "y": 352,
   "width": 20,
   "height": 18,
-  "type": "LOGO",
+  "backgroundId": "d964e783-262f-4a22-b996-167c471c11bb",
+  "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
-    null,
+    "",
     "dmg",
     "default-bg-1"
   ],
   "spritePaletteIds": [
     ""
   ],
-  "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_1",
-  "x": 296,
-  "y": 352,
+  "autoFadeEventCollapse": false,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -66,5 +66,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": false
+  "collisions": "",
+  "labelColor": "gray"
 }

@@ -18,7 +18,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_16",
   "x": 472,
-  "y": 1200,
+  "y": 1208,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -174,5 +174,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true
+  "autoFadeEventCollapse": true,
+  "labelColor": "green"
 }

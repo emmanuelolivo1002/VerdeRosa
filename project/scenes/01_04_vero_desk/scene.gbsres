@@ -62,6 +62,32 @@
       "id": "49492924-bc73-489f-ad98-1f5eec032859"
     },
     {
+      "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
+      "args": {
+        "text": [
+          "Evidente es que \nal humano",
+          "La muerte llega \ninminente"
+        ],
+        "__scriptTabs": "layout",
+        "boxHeight": 4,
+        "boxWidth": 20,
+        "boxX": 0,
+        "boxY": 4,
+        "showBorder": "true",
+        "showActors": "true",
+        "clearPrevious": false,
+        "textInv": true,
+        "textX": 2,
+        "textY": 4,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "avatarId": "",
+        "__collapse": false,
+        "__comment": true
+      },
+      "id": "56ac9706-1246-4431-a6df-c072463202e9"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -76,7 +102,9 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false,
+        "__comment": false,
+        "__label": "Display Poem"
       },
       "children": {
         "true": [
@@ -111,7 +139,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "e0774d26-3cad-499b-bd0d-50ec397cfb61"
           }
@@ -193,5 +221,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true
+  "autoFadeEventCollapse": true,
+  "labelColor": "blue"
 }

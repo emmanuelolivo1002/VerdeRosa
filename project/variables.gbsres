@@ -2,6 +2,11 @@
   "_resourceType": "variables",
   "variables": [
     {
+      "id": "0",
+      "name": "Language",
+      "symbol": "var_language_1"
+    },
+    {
       "id": "6b10fa1f-174a-4686-96cb-911a27b062db__L0",
       "name": "Language",
       "symbol": "var_language"
@@ -10,11 +15,6 @@
       "id": "ccb593aa-dc03-49a1-b9fb-3a177d44e000__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
-    },
-    {
-      "id": "0",
-      "name": "Language",
-      "symbol": "var_language_1"
     },
     {
       "id": "7cebdb35-585d-4fd6-a011-cb08fce04150__L0",

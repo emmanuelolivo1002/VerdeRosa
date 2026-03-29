@@ -17,8 +17,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_37",
-  "x": 1120,
-  "y": 2110.6666666666665,
+  "x": 1104,
+  "y": 2128,
   "script": [
     {
       "command": "EVENT_TEXT_DRAW",
@@ -76,5 +76,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true
+  "autoFadeEventCollapse": true,
+  "labelColor": "yellow"
 }

@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "6b10fa1f-174a-4686-96cb-911a27b062db",
   "_index": 1,
-  "name": "Title",
+  "name": "00_02_Title",
   "backgroundId": "7967e12f-4d16-40c1-a6aa-88fac11817e0",
   "tilesetId": "",
   "width": 20,
@@ -54,5 +54,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true
+  "autoFadeEventCollapse": true,
+  "labelColor": "gray"
 }
