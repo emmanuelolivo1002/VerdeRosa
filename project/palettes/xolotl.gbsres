@@ -1,11 +1,11 @@
 {
   "_resourceType": "palette",
   "id": "57992d06-feda-4332-b993-396e601f9bd2",
-  "name": "Xolotl Face",
+  "name": "Xolotl",
   "colors": [
-    "def79c",
+    "e6ffce",
     "f731b5",
-    "4a8c19",
-    "081900"
+    "0031b5",
+    "001031"
   ]
 }

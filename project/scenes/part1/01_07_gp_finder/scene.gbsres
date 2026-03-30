@@ -2,29 +2,36 @@
   "_resourceType": "scene",
   "id": "cb5c82d0-3bca-4006-9e1c-1b80c7b3f68b",
   "_index": 12,
+  "type": "TOPDOWN",
   "name": "part1/01_07_GP_FINDER",
-  "backgroundId": "4f92f898-3efd-447f-89d6-9567e6d5d226",
-  "tilesetId": "",
+  "symbol": "scene_13",
+  "labelColor": "blue",
+  "x": 480,
+  "y": 904,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "4f92f898-3efd-447f-89d6-9567e6d5d226",
+  "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
     "default-bg-4",
     "dmg",
-    null,
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
+    "",
     "default-bg-1"
   ],
   "spritePaletteIds": [],
-  "collisions": "",
+  "monoBGP": [
+    0,
+    1,
+    2,
+    3
+  ],
   "autoFadeSpeed": 1,
-  "symbol": "scene_13",
-  "x": 480,
-  "y": 904,
+  "autoFadeEventCollapse": true,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -58,7 +65,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "722c9b15-bf62-4e7f-b713-2f79f740f49f",
+              "sceneId": "b57488e3-60c1-4f65-9b5b-3ffe1ddafa94",
               "x": {
                 "type": "number",
                 "value": 0
@@ -80,12 +87,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
-  "labelColor": "blue",
-  "monoBGP": [
-    0,
-    1,
-    2,
-    3
-  ]
+  "collisions": ""
 }

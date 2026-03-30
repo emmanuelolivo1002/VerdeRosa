@@ -10,11 +10,12 @@
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [
-    "dmg",
+    "367c5da6-894f-4142-9d10-917533d9a517",
     "dmg"
   ],
   "spritePaletteIds": [
-    "default-bg-4"
+    "57992d06-feda-4332-b993-396e601f9bd2",
+    "default-bg-1"
   ],
   "collisions": "",
   "autoFadeSpeed": 1,
@@ -22,16 +23,6 @@
   "x": 1280,
   "y": 1456,
   "script": [
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "Xolotl Floating",
-        "x": 5,
-        "y": 7,
-        "location": "background"
-      },
-      "id": "971b539c-12da-4db1-9515-d6ec7a128444"
-    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
@@ -47,6 +38,20 @@
         "__collapse": true
       },
       "id": "9798f9fd-97da-4e68-934c-7f8e0726bb53"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 2
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "d572397d-dbbe-454f-84f2-818c71818a7b"
     },
     {
       "command": "EVENT_IF",

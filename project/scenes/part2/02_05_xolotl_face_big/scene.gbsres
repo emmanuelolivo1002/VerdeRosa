@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [
-    "dmg",
+    "367c5da6-894f-4142-9d10-917533d9a517",
     "dmg"
   ],
   "spritePaletteIds": [
@@ -199,39 +199,6 @@
         "__collapse": false
       },
       "id": "a0b39fae-d853-4660-a965-9c573106e200"
-    },
-    {
-      "command": "EVENT_SET_INPUT_SCRIPT",
-      "args": {
-        "input": [
-          "a"
-        ],
-        "override": true,
-        "__scriptTabs": "press",
-        "__collapse": false
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "cf2b66a0-c113-4324-b530-fcd1de070171",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "direction": "",
-              "fadeSpeed": "2"
-            },
-            "id": "e5410b06-051b-4811-bcff-6638698853f5"
-          }
-        ]
-      },
-      "id": "badfa376-4db8-4ac7-8e5a-67abc1d798a2"
     }
   ],
   "playerHit1Script": [],

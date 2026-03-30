@@ -5,6 +5,7 @@
   "type": "LOGO",
   "name": "ui/00_01_Logo",
   "symbol": "scene_1",
+  "labelColor": "gray",
   "x": 296,
   "y": 352,
   "width": 20,
@@ -16,10 +17,10 @@
     "",
     "dmg",
     "default-bg-1",
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
     "dmg"
   ],
   "spritePaletteIds": [
@@ -71,6 +72,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "",
-  "labelColor": "gray"
+  "collisions": ""
 }
