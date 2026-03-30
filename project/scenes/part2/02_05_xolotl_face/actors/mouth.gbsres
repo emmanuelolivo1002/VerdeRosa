@@ -8,7 +8,7 @@
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 127,
+  "animSpeed": 255,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
@@ -18,6 +18,16 @@
   "symbol": "actor_2",
   "script": [],
   "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "mouth_animated",
+        "loopAnim": false,
+        "__collapse": false
+      },
+      "id": "437d5d44-ffb5-4bf5-9593-861fc20127fe"
+    },
     {
       "command": "EVENT_ACTOR_SET_FRAME",
       "args": {
@@ -29,16 +39,6 @@
         "__collapse": false
       },
       "id": "243ffbbc-4440-4063-981a-93e9fe5faf8e"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_STATE",
-      "args": {
-        "actorId": "$self$",
-        "spriteStateId": "mouth_animated",
-        "loopAnim": false,
-        "__collapse": false
-      },
-      "id": "437d5d44-ffb5-4bf5-9593-861fc20127fe"
     }
   ],
   "updateScript": [
@@ -81,28 +81,6 @@
             "children": {
               "true": [
                 {
-                  "command": "EVENT_ACTOR_SET_STATE",
-                  "args": {
-                    "actorId": "$self$",
-                    "spriteStateId": "mouth_animated",
-                    "loopAnim": false,
-                    "__collapse": false
-                  },
-                  "id": "a7de5c82-07cb-4a2f-a3f6-e00c01b23e60"
-                },
-                {
-                  "command": "EVENT_ACTOR_SET_FRAME",
-                  "args": {
-                    "actorId": "$self$",
-                    "frame": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "__collapse": true
-                  },
-                  "id": "512e09a4-0437-453d-a54a-f1e774f39210"
-                },
-                {
                   "command": "EVENT_WAIT",
                   "args": {
                     "time": {
@@ -114,7 +92,7 @@
                       "value": 6
                     },
                     "units": "time",
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "8b1b1b90-d47b-4bfb-baa8-4beaeff9abd2"
                 },
@@ -135,7 +113,7 @@
                   "args": {
                     "time": {
                       "type": "number",
-                      "value": 0.3
+                      "value": 0.1
                     },
                     "frames": {
                       "type": "number",
@@ -163,7 +141,7 @@
                   "args": {
                     "time": {
                       "type": "number",
-                      "value": 0.3
+                      "value": 0.1
                     },
                     "frames": {
                       "type": "number",
@@ -224,6 +202,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 9,
-  "y": 9,
+  "y": 8,
   "_index": 2
 }

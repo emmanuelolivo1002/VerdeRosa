@@ -485,7 +485,7 @@
                 {
                   "id": "745909aa-6cb8-4b07-b7b0-7f3fb8e75afa",
                   "x": 0,
-                  "y": 0,
+                  "y": 1,
                   "sliceX": 48,
                   "sliceY": 32,
                   "palette": 0,
@@ -497,8 +497,8 @@
                 },
                 {
                   "id": "8858bb98-99e1-42db-9ffe-32841c169c5f",
-                  "x": 8,
-                  "y": 0,
+                  "x": 7,
+                  "y": 1,
                   "sliceX": 56,
                   "sliceY": 32,
                   "palette": 0,
@@ -516,7 +516,7 @@
                 {
                   "id": "3de099f4-4224-46bb-bafa-01497327c313",
                   "x": 0,
-                  "y": 0,
+                  "y": 1,
                   "sliceX": 32,
                   "sliceY": 32,
                   "palette": 0,
@@ -529,7 +529,7 @@
                 {
                   "id": "43356655-2e6f-4c3d-9dfa-210f2f84d357",
                   "x": 8,
-                  "y": 0,
+                  "y": 1,
                   "sliceX": 40,
                   "sliceY": 32,
                   "palette": 0,
@@ -547,7 +547,7 @@
                 {
                   "id": "1a88bd82-358c-4364-aa18-ccb871c86571",
                   "x": 0,
-                  "y": 0,
+                  "y": 1,
                   "sliceX": 16,
                   "sliceY": 32,
                   "palette": 0,
@@ -560,7 +560,7 @@
                 {
                   "id": "8c6b90d1-bf5e-420f-b275-3f72d4261942",
                   "x": 8,
-                  "y": 0,
+                  "y": 1,
                   "sliceX": 24,
                   "sliceY": 32,
                   "palette": 0,
@@ -578,7 +578,7 @@
                 {
                   "id": "53a90315-4a19-4946-9207-a1f486b86734",
                   "x": 0,
-                  "y": 0,
+                  "y": 1,
                   "sliceX": 0,
                   "sliceY": 32,
                   "palette": 0,
@@ -591,7 +591,7 @@
                 {
                   "id": "a325a97e-4948-4ab0-a1cc-34f11df3f52c",
                   "x": 8,
-                  "y": 0,
+                  "y": 1,
                   "sliceX": 8,
                   "sliceY": 32,
                   "palette": 0,
@@ -685,7 +685,7 @@
                 {
                   "id": "a0bdd559-0067-43c3-b226-5bc7c175c702",
                   "x": 0,
-                  "y": 0,
+                  "y": 1,
                   "sliceX": 0,
                   "sliceY": 32,
                   "palette": 0,
@@ -698,7 +698,7 @@
                 {
                   "id": "d2181911-5b11-440d-9e6f-5f8097e09f95",
                   "x": 8,
-                  "y": 0,
+                  "y": 1,
                   "sliceX": 8,
                   "sliceY": 32,
                   "palette": 0,
@@ -780,7 +780,7 @@
       "flipLeft": true
     }
   ],
-  "numTiles": 14,
+  "numTiles": 13,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
   "canvasWidth": 32,

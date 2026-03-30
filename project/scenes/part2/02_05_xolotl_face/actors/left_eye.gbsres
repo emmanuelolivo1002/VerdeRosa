@@ -118,14 +118,14 @@
                   "args": {
                     "time": {
                       "type": "number",
-                      "value": 3
+                      "value": 2
                     },
                     "frames": {
                       "type": "number",
                       "value": 6
                     },
                     "units": "time",
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "035c9643-3b28-402f-9153-003f6c666b06"
                 },
@@ -278,7 +278,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 3,
+  "x": 4,
   "y": 6,
   "_index": 0
 }
