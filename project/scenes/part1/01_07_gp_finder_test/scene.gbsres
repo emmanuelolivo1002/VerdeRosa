@@ -1,29 +1,26 @@
 {
   "_resourceType": "scene",
-  "id": "cb5c82d0-3bca-4006-9e1c-1b80c7b3f68b",
-  "_index": 12,
-  "name": "part1/01_07_GP_FINDER",
-  "backgroundId": "4f92f898-3efd-447f-89d6-9567e6d5d226",
+  "id": "722c9b15-bf62-4e7f-b713-2f79f740f49f",
+  "_index": 39,
+  "name": "part1/01_07_GP_FINDER_TEST",
+  "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [
-    "default-bg-4",
     "dmg",
-    null,
-    null,
-    null,
-    null,
-    null,
-    "default-bg-1"
+    "dmg"
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "",
+    ""
+  ],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_13",
-  "x": 480,
+  "symbol": "scene_40",
+  "x": 296,
   "y": 904,
   "script": [
     {
@@ -32,7 +29,7 @@
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "bb348e4d-44e8-403c-a4e0-8e472e517a51"
+      "id": "96c9dff6-1a30-4bbd-b3b7-c9be956323ec"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -40,7 +37,7 @@
         "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
         "__collapse": true
       },
-      "id": "31425921-6e85-4cdb-ba5f-e5e5cfa5b1c5"
+      "id": "9f85f8ce-1cf6-40bb-a535-243892f91597"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -50,8 +47,8 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false,
-        "__comment": false
+        "__collapse": true,
+        "__comment": true
       },
       "children": {
         "true": [
@@ -70,22 +67,16 @@
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "48c1100a-2733-4c84-a320-87af28b7bbf4"
+            "id": "373c5d40-2ab7-47ad-8f4f-03faacfb2b99"
           }
         ]
       },
-      "id": "b53c9f38-33ae-4341-8954-8e1493f3c8a9"
+      "id": "7c2643b6-2c43-4b53-bda4-79992fbb5264"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
   "autoFadeEventCollapse": true,
-  "labelColor": "blue",
-  "monoBGP": [
-    0,
-    1,
-    2,
-    3
-  ]
+  "labelColor": "red"
 }

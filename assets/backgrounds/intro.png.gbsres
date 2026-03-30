@@ -3,10 +3,11 @@
   "id": "9da87982-8465-4af2-944c-7f9870e4c78d",
   "name": "intro",
   "symbol": "bg_intro",
-  "tileColors": "00168+",
+  "tileColors": "0791+009+07b+00a+07a+003+07!006+07a+003+07!005+0792+",
   "filename": "intro.png",
   "width": 20,
   "height": 18,
   "imageWidth": 160,
-  "imageHeight": 144
+  "imageHeight": 144,
+  "autoColor": true
 }

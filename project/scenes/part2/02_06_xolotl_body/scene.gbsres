@@ -13,7 +13,9 @@
     "dmg",
     "dmg"
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "default-bg-4"
+  ],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_20",

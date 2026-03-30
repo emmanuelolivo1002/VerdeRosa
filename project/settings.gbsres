@@ -12,24 +12,24 @@
   "sgbEnabled": false,
   "customHead": "",
   "defaultBackgroundPaletteIds": [
-    "default-bg-1",
+    "dmg",
     "default-bg-2",
     "default-bg-3",
     "default-bg-4",
     "default-bg-5",
     "default-bg-6",
     "dmg",
-    "default-ui"
+    "dmg"
   ],
   "defaultSpritePaletteIds": [
+    "dmg",
     "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite"
+    "default-bg-1",
+    "default-bg-2",
+    "default-bg-4",
+    "default-bg-5",
+    "default-bg-6",
+    "dmg"
   ],
   "defaultSpritePaletteId": "default-sprite",
   "defaultUIPaletteId": "default-ui",
@@ -108,7 +108,7 @@
   "runSceneSelectionOnly": false,
   "spriteMode": "8x16",
   "openBuildFolderOnExport": true,
-  "showRomUsageAfterBuild": false,
+  "showRomUsageAfterBuild": true,
   "romFilename": "",
   "defaultSceneTypeId": "TOPDOWN",
   "disabledSceneTypeIds": [],
