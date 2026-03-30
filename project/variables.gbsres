@@ -7,6 +7,31 @@
       "symbol": "var_language_1"
     },
     {
+      "id": "1",
+      "name": "02_05_scene_started",
+      "symbol": "var_02_05_scene_started"
+    },
+    {
+      "id": "2",
+      "name": "02_05_right_eye_started",
+      "symbol": "var_05_right_eye_started_0"
+    },
+    {
+      "id": "3",
+      "name": "02_05_left_eye_started",
+      "symbol": "var_02_05_left_eye_started"
+    },
+    {
+      "id": "4",
+      "name": "02_05_eye_ended",
+      "symbol": "var_05_eye_ended_0"
+    },
+    {
+      "id": "5",
+      "name": "02_05_mouth_ended",
+      "symbol": "var_02_05_mouth_ended"
+    },
+    {
       "id": "6b10fa1f-174a-4686-96cb-911a27b062db__L0",
       "name": "Language",
       "symbol": "var_language"
@@ -47,24 +72,14 @@
       "symbol": "var_language_0"
     },
     {
-      "id": "1",
-      "name": "02_05_scene_started",
-      "symbol": "var_02_05_scene_started"
-    },
-    {
-      "id": "2",
-      "name": "02_05_right_eye_started",
-      "symbol": "var_05_right_eye_started_0"
-    },
-    {
       "id": "722920db-fc03-46cb-8d3d-9cf99a4d4177__L2",
       "name": "Local 2",
       "symbol": "var_local_2"
     },
     {
-      "id": "3",
-      "name": "02_05_left_eye_started",
-      "symbol": "var_02_05_left_eye_started"
+      "id": "d3acc522-44c5-4935-a2c5-50817a1fadb6__L0",
+      "name": "test",
+      "symbol": "var_test"
     }
   ],
   "constants": []

@@ -250,6 +250,18 @@
                     "__collapse": true
                   },
                   "id": "68f55683-7bf8-4732-8c6c-ce3d492a8fe6"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "4",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "__collapse": true
+                  },
+                  "id": "66920d4d-6cb6-4c69-a1cc-47fea5e36b78"
                 }
               ],
               "false": []
@@ -266,7 +278,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 4,
-  "y": 7,
+  "x": 3,
+  "y": 6,
   "_index": 0
 }
