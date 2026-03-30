@@ -29,6 +29,13 @@
       "id": "7d147b28-7321-4eb8-87e1-a3b50f1a5b41"
     },
     {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "423cb41a-8eb6-416d-8639-7f3968d40d8f"
+      },
+      "id": "d4451319-9cde-4477-9182-f408af86e143"
+    },
+    {
       "command": "EVENT_CAMERA_SET_POSITION",
       "args": {
         "x": {
@@ -96,7 +103,8 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false,
+        "__label": "Dialogue"
       },
       "children": {
         "true": [
@@ -181,7 +189,8 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false,
+        "__label": "Instructions"
       },
       "children": {
         "true": [
@@ -189,18 +198,18 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Press UP"
+                "PRESS !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!^"
               ],
-              "__section": "behavior",
+              "__section": "layout",
               "avatarId": "",
-              "minHeight": 5,
-              "maxHeight": 7,
+              "minHeight": 3,
+              "maxHeight": 3,
               "textX": 6,
-              "textY": 2,
-              "textHeight": 5,
+              "textY": 1,
+              "textHeight": 2,
               "position": "top",
               "clearPrevious": true,
-              "showFrame": "true",
+              "showFrame": true,
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "notModal",
@@ -217,15 +226,15 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Presiona ARRIBA"
+                "PRESIONA !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!^"
               ],
-              "__section": "behavior",
+              "__section": "layout",
               "avatarId": "",
-              "minHeight": 5,
-              "maxHeight": 7,
-              "textX": 2,
-              "textY": 2,
-              "textHeight": 5,
+              "minHeight": 3,
+              "maxHeight": 3,
+              "textX": 5,
+              "textY": 1,
+              "textHeight": 2,
               "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
@@ -242,6 +251,13 @@
         ]
       },
       "id": "8451b03c-28ef-46bd-acc4-b66f7575d998"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "423cb41a-8eb6-416d-8639-7f3968d40d8f"
+      },
+      "id": "f1910b7d-2af0-4a67-b8f8-6508dcbb37b2"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",

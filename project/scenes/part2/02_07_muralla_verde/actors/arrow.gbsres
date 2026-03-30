@@ -1,0 +1,40 @@
+{
+  "_resourceType": "actor",
+  "id": "423cb41a-8eb6-416d-8639-7f3968d40d8f",
+  "name": "Arrow",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "2de278cd-bf6f-4d37-8f11-c64755c9fdce",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_10",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true,
+        "__collapse": false
+      },
+      "id": "d07d8876-f8f1-4265-a3c7-df43b25b6d34"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 49,
+  "y": 9,
+  "_index": 0
+}
