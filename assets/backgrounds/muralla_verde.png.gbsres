@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "f4fc01aa-bded-44ca-b185-72df105636ae",
+  "name": "muralla_verde",
+  "symbol": "bg_muralla_verde",
+  "tileColors": "",
+  "filename": "muralla_verde.png",
+  "width": 60,
+  "height": 18,
+  "imageWidth": 480,
+  "imageHeight": 144
+}
