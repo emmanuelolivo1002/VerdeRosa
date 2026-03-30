@@ -15,7 +15,12 @@
   "paletteIds": [
     "",
     "dmg",
-    "default-bg-1"
+    "default-bg-1",
+    null,
+    null,
+    null,
+    null,
+    "dmg"
   ],
   "spritePaletteIds": [
     ""

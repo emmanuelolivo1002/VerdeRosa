@@ -20,8 +20,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_40",
-  "x": 296,
-  "y": 904,
+  "x": 656,
+  "y": 1136,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -47,8 +47,8 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true,
-        "__comment": true
+        "__collapse": false,
+        "__comment": false
       },
       "children": {
         "true": [
