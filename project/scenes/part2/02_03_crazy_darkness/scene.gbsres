@@ -18,7 +18,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_17",
   "x": 664,
-  "y": 1208,
+  "y": 1456,
   "script": [
     {
       "command": "EVENT_TEXT_DRAW",
@@ -61,7 +61,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "4ca3e544-6968-4e6d-9d6a-d15a89504390",
+              "sceneId": "6272c8fa-1866-434a-8c95-a3d91745d096",
               "x": {
                 "type": "number",
                 "value": 0

@@ -3,7 +3,7 @@
   "id": "4ca3e544-6968-4e6d-9d6a-d15a89504390",
   "_index": 17,
   "name": "part2/02_04_Xolotl_dialogue",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -17,19 +17,9 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_18",
-  "x": 872,
-  "y": 1208,
+  "x": 904,
+  "y": 1264,
   "script": [
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "Darkness",
-        "x": 1,
-        "y": 7,
-        "location": "background"
-      },
-      "id": "d57247ce-2b19-4c15-a261-315fec1aa48d"
-    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
@@ -61,7 +51,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -131,7 +121,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -161,5 +151,5 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "autoFadeEventCollapse": true,
-  "labelColor": "green"
+  "labelColor": "red"
 }

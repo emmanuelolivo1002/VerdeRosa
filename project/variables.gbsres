@@ -80,6 +80,16 @@
       "id": "d3acc522-44c5-4935-a2c5-50817a1fadb6__L0",
       "name": "test",
       "symbol": "var_test"
+    },
+    {
+      "id": "6272c8fa-1866-434a-8c95-a3d91745d096__L2",
+      "name": "Local 2",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "0fdc52ef-e50e-48a4-be10-b263322ff263__L0",
+      "name": "test",
+      "symbol": "var_test_0"
     }
   ],
   "constants": []
