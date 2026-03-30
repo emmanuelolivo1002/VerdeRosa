@@ -45,6 +45,26 @@
       "id": "1c8e4ebc-eb4e-4939-96b6-0486da97bc7b__L0",
       "name": "Language",
       "symbol": "var_language_0"
+    },
+    {
+      "id": "1",
+      "name": "02_05_scene_started",
+      "symbol": "var_02_05_scene_started"
+    },
+    {
+      "id": "2",
+      "name": "02_05_right_eye_started",
+      "symbol": "var_05_right_eye_started_0"
+    },
+    {
+      "id": "722920db-fc03-46cb-8d3d-9cf99a4d4177__L2",
+      "name": "Local 2",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "3",
+      "name": "02_05_left_eye_started",
+      "symbol": "var_02_05_left_eye_started"
     }
   ],
   "constants": []
