@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "6afc2f9c-d6e1-4cec-b08c-7a87771fcd43",
+  "name": "Door",
+  "symbol": "bg_door",
+  "tileColors": "",
+  "filename": "Door.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
