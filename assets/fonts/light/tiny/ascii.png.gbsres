@@ -1,0 +1,10 @@
+{
+  "_resourceType": "font",
+  "id": "cd1d2002-daa2-463d-96c4-3af07041e88c",
+  "name": "light/tiny/ascii",
+  "symbol": "font_light_tiny_ascii",
+  "width": 128,
+  "height": 112,
+  "mapping": {},
+  "filename": "light/tiny/ascii.png"
+}

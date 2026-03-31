@@ -1,0 +1,10 @@
+{
+  "_resourceType": "font",
+  "id": "c8fbab2e-cf8d-47a0-b946-abfd90acfc05",
+  "name": "light/thick/ascii",
+  "symbol": "font_light_thick_ascii",
+  "width": 128,
+  "height": 112,
+  "mapping": {},
+  "filename": "light/thick/ascii.png"
+}

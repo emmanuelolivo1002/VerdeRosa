@@ -1,0 +1,10 @@
+{
+  "_resourceType": "font",
+  "id": "2ba8df8d-ed53-4167-bf02-62adf737adae",
+  "name": "light/default/ascii",
+  "symbol": "font_light_default_ascii",
+  "width": 128,
+  "height": 112,
+  "mapping": {},
+  "filename": "light/default/ascii.png"
+}
