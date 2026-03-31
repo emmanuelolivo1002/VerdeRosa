@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "99e69793-fa7d-4ab2-ae07-0ca36d806cab",
-  "_index": 20,
+  "_index": 18,
   "name": "part2/02_07_Muralla_Verde",
   "backgroundId": "f4fc01aa-bded-44ca-b185-72df105636ae",
   "tilesetId": "",
@@ -271,6 +271,10 @@
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_DIALOGUE_CLOSE_NONMODAL",
+            "id": "ef247ef3-f328-4d9d-a6b9-336898fe7018"
+          },
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
