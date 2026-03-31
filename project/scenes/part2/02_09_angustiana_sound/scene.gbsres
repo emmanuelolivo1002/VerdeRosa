@@ -47,6 +47,19 @@
       "id": "6b3dd180-8cfa-4650-b9b8-cf5a8314f48b"
     },
     {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "shakeDirection": "diagonal",
+        "magnitude": {
+          "type": "number",
+          "value": 5
+        }
+      },
+      "id": "5d89b995-3243-436b-825d-7b3581124254"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -61,7 +74,8 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": false,
+        "__label": "Dialogue"
       },
       "children": {
         "true": [
