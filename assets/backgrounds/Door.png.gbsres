@@ -3,10 +3,10 @@
   "id": "6afc2f9c-d6e1-4cec-b08c-7a87771fcd43",
   "name": "Door",
   "symbol": "bg_door",
-  "tileColors": "",
+  "tileColors": "003e8+",
   "filename": "Door.png",
   "width": 20,
-  "height": 18,
+  "height": 50,
   "imageWidth": 160,
-  "imageHeight": 144
+  "imageHeight": 400
 }

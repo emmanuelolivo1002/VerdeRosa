@@ -31,7 +31,8 @@
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "actorId": "423cb41a-8eb6-416d-8639-7f3968d40d8f"
+        "actorId": "423cb41a-8eb6-416d-8639-7f3968d40d8f",
+        "__collapse": true
       },
       "id": "d4451319-9cde-4477-9182-f408af86e143"
     },
@@ -45,7 +46,8 @@
         "y": {
           "type": "number",
           "value": 0
-        }
+        },
+        "__collapse": true
       },
       "id": "05b477d4-1f03-4f53-aa64-b1efda6228c9"
     },
