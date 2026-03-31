@@ -17,8 +17,8 @@
   "collisions": "00438+",
   "autoFadeSpeed": 1,
   "symbol": "scene_21",
-  "x": 1480,
-  "y": 1456,
+  "x": 1488,
+  "y": 1640,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -200,9 +200,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "PRESS !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!^"
+                "PRESS !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!U"
               ],
-              "__section": "layout",
+              "__section": "text",
               "avatarId": "",
               "minHeight": 3,
               "maxHeight": 3,
@@ -228,9 +228,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "PRESIONA !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!^"
+                "PRESIONA !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!U"
               ],
-              "__section": "layout",
+              "__section": "text",
               "avatarId": "",
               "minHeight": 3,
               "maxHeight": 3,

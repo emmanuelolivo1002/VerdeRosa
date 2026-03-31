@@ -17,8 +17,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_26",
-  "x": 472,
-  "y": 1688,
+  "x": 480,
+  "y": 1872,
   "script": [
     {
       "command": "EVENT_TEXT_DRAW",
@@ -139,7 +139,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Instruction UP"
       },
       "children": {
@@ -148,9 +148,9 @@
             "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
             "args": {
               "text": [
-                "Press UP"
+                "Press !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!U"
               ],
-              "__scriptTabs": "layout",
+              "__scriptTabs": "text",
               "boxHeight": 4,
               "boxWidth": 20,
               "boxX": 0,
@@ -173,9 +173,9 @@
             "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
             "args": {
               "text": [
-                "Oprime Arriba"
+                "Oprime !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!U"
               ],
-              "__scriptTabs": "layout",
+              "__scriptTabs": "text",
               "boxHeight": 4,
               "boxWidth": 20,
               "boxX": 0,
@@ -228,7 +228,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Instruction DOWN"
       },
       "children": {
@@ -237,7 +237,7 @@
             "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
             "args": {
               "text": [
-                "Press DOWN"
+                "Press !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!D"
               ],
               "__scriptTabs": "text",
               "boxHeight": 4,
@@ -262,7 +262,7 @@
             "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
             "args": {
               "text": [
-                "Oprime ABAJO"
+                "Oprime !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!D"
               ],
               "__scriptTabs": "text",
               "boxHeight": 4,
@@ -325,9 +325,9 @@
             "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
             "args": {
               "text": [
-                "Press A to Henshin"
+                "Press !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!A !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!to Henshin"
               ],
-              "__scriptTabs": "layout",
+              "__scriptTabs": "text",
               "boxHeight": 4,
               "boxWidth": 20,
               "boxX": 0,
@@ -350,9 +350,9 @@
             "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
             "args": {
               "text": [
-                "Oprime A para \nel HENSHIN"
+                "Oprime !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!A !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!para\nel HENSHIN"
               ],
-              "__scriptTabs": "layout",
+              "__scriptTabs": "text",
               "boxHeight": 4,
               "boxWidth": 20,
               "boxX": 0,

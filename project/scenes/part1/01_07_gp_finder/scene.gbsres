@@ -6,10 +6,10 @@
   "name": "part1/01_07_GP_FINDER",
   "symbol": "scene_13",
   "labelColor": "blue",
-  "x": 456,
-  "y": 1160,
+  "x": 576,
+  "y": 1176,
   "width": 20,
-  "height": 18,
+  "height": 36,
   "backgroundId": "4f92f898-3efd-447f-89d6-9567e6d5d226",
   "tilesetId": "",
   "colorModeOverride": "none",
@@ -50,6 +50,37 @@
       "id": "31425921-6e85-4cdb-ba5f-e5e5cfa5b1c5"
     },
     {
+      "command": "EVENT_CAMERA_SET_POSITION",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "338f89e6-8a32-43e6-8ae2-a3cf86e1ae03"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 18
+        },
+        "speed": 2,
+        "__collapse": false
+      },
+      "id": "5ba7b5bc-7c1b-4bc1-91eb-935225cdc384"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
@@ -87,5 +118,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": ""
+  "collisions": "002d0+"
 }

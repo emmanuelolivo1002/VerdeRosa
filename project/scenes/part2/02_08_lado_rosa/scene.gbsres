@@ -17,8 +17,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_22",
-  "x": 2176,
-  "y": 1456,
+  "x": 2184,
+  "y": 1640,
   "script": [
     {
       "command": "EVENT_TEXT_DRAW",
