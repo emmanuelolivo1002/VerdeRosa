@@ -3,14 +3,14 @@
   "id": "79ff2074-34ac-4b97-9053-bc8e161e6f3b",
   "_index": 7,
   "name": "part1/01_03_Door",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "6afc2f9c-d6e1-4cec-b08c-7a87771fcd43",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [
-    "dmg",
+    "367c5da6-894f-4142-9d10-917533d9a517",
     "dmg"
   ],
   "spritePaletteIds": [],
@@ -20,16 +20,6 @@
   "x": 672,
   "y": 664,
   "script": [
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "Vero Door",
-        "x": 1,
-        "y": 7,
-        "location": "background"
-      },
-      "id": "b3e4c5b9-7753-44c3-bf92-a6e0c7c325e9"
-    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
@@ -47,38 +37,37 @@
       "id": "522d260a-4a2e-428e-89b5-1ae65ce942b1"
     },
     {
-      "command": "EVENT_SET_INPUT_SCRIPT",
+      "command": "EVENT_WAIT",
       "args": {
-        "input": [
-          "a"
-        ],
-        "override": true,
-        "__scriptTabs": "press",
+        "time": {
+          "type": "number",
+          "value": 2
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
         "__collapse": false
       },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "4b696e87-b8b9-41b7-98c8-725011e1f8d1",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "direction": "",
-              "fadeSpeed": "2",
-              "__collapse": true
-            },
-            "id": "be17937f-da2b-4a72-98e2-68e4ec0f6f1b"
-          }
-        ]
+      "id": "71d96e4b-e84b-40dd-aee8-9d510ae324c8"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "4b696e87-b8b9-41b7-98c8-725011e1f8d1",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": true
       },
-      "id": "fe1d9744-3885-43da-96e4-966b13e86820"
+      "id": "be17937f-da2b-4a72-98e2-68e4ec0f6f1b"
     }
   ],
   "playerHit1Script": [],

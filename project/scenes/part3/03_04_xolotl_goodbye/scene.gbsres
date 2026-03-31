@@ -2,31 +2,32 @@
   "_resourceType": "scene",
   "id": "908b9800-bac9-44a5-95e6-e2e6ae09a5b8",
   "_index": 28,
+  "type": "TOPDOWN",
   "name": "part3/03_04_Xolotl_Goodbye",
-  "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
-  "tilesetId": "",
+  "symbol": "scene_31",
+  "labelColor": "purple",
+  "x": 840,
+  "y": 2024,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
+  "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
     "367c5da6-894f-4142-9d10-917533d9a517",
     "dmg",
-    null,
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
+    "",
     "367c5da6-894f-4142-9d10-917533d9a517"
   ],
   "spritePaletteIds": [
     "57992d06-feda-4332-b993-396e601f9bd2"
   ],
-  "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_31",
-  "x": 840,
-  "y": 2024,
+  "autoFadeEventCollapse": true,
   "script": [
     {
       "command": "EVENT_TEXT_DRAW",
@@ -171,6 +172,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
-  "labelColor": "purple"
+  "collisions": ""
 }

@@ -3,17 +3,25 @@
   "id": "9e51ab7f-b001-422d-bf5d-3f797cfcdab7",
   "_index": 2,
   "name": "part1/01_01_Intro",
-  "backgroundId": "9da87982-8465-4af2-944c-7f9870e4c78d",
+  "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [
+    "367c5da6-894f-4142-9d10-917533d9a517",
     "dmg",
-    "dmg"
+    null,
+    null,
+    null,
+    null,
+    "367c5da6-894f-4142-9d10-917533d9a517",
+    "367c5da6-894f-4142-9d10-917533d9a517"
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "367c5da6-894f-4142-9d10-917533d9a517"
+  ],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
@@ -27,6 +35,20 @@
         "__collapse": true
       },
       "id": "c3d0cdd7-83bc-497a-a53e-021e9a8d12b4"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 2
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "a43342bb-08e8-4498-abb3-e1e24fbc3097"
     },
     {
       "command": "EVENT_IF",
@@ -43,62 +65,43 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_TEXT",
+            "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": [
-                "English Dialogue"
-              ],
-              "__section": "layout",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "top",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!This is the story \nof !F:2bbe3caf-3218-4df8-9161-94cdc7088b59!VERO !F:c38c5c88-d25a-4c03-961f-96023b78359e!and how \nshe came to know \nthe !F:2bbe3caf-3218-4df8-9161-94cdc7088b59!Pink !F:c38c5c88-d25a-4c03-961f-96023b78359e!side of \nlife",
+              "x": 1,
+              "y": 4,
+              "location": "background"
             },
-            "id": "61029901-fe24-42c1-ba6d-bb6f1aa96235"
+            "id": "bfc81447-9f7e-4c0c-bd2a-e53705db7d6b"
           }
         ],
         "false": [
           {
-            "command": "EVENT_TEXT",
+            "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": [
-                "Dialogo Español"
-              ],
-              "__section": "behavior",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "top",
-              "clearPrevious": true,
-              "showFrame": true,
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
+              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Esta es la \nhistoria de !F:2bbe3caf-3218-4df8-9161-94cdc7088b59!VERO \n!F:c38c5c88-d25a-4c03-961f-96023b78359e!y de cómo llegó\na conocer el lado \n!F:2bbe3caf-3218-4df8-9161-94cdc7088b59!ROSA !F:c38c5c88-d25a-4c03-961f-96023b78359e!de la vida",
+              "x": 1,
+              "y": 4,
+              "location": "background"
             },
-            "id": "428da8ad-a4ea-4add-9389-b25d4dc578d3"
+            "id": "e08843c0-abb9-44bd-8eb1-448f5ae96d80"
+          },
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Esta es la \nhistoria de !F:71e95cc4-4a41-4d79-b548-10713669ecc9!VERO \n!F:c38c5c88-d25a-4c03-961f-96023b78359e!y de cómo llegó\na conocer el lado \n!F:71e95cc4-4a41-4d79-b548-10713669ecc9!ROSA !F:c38c5c88-d25a-4c03-961f-96023b78359e!de la vida",
+              "x": 1,
+              "y": 4,
+              "location": "background",
+              "__collapse": true,
+              "__comment": true
+            },
+            "id": "1e8a1188-dd89-43ea-98bc-0a863a23dfdd"
           }
         ]
       },
@@ -120,14 +123,14 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "a9f122a7-3fac-408f-b1b5-0fa5e21023db",
+              "sceneId": "79ff2074-34ac-4b97-9053-bc8e161e6f3b",
               "x": {
                 "type": "number",
                 "value": 0
@@ -139,11 +142,43 @@
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "ca07f5f6-5a7d-47f9-a413-69f01bff9e23"
+            "id": "fac25bde-b665-4bfa-966b-2adfe3ab69d1"
           }
         ]
       },
-      "id": "3e145c88-d95f-4f5b-af5c-d554187ecfde"
+      "id": "8f8bde97-b422-4f3d-a594-5ec828da1295"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 6
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": false
+      },
+      "id": "899092a1-00ba-4dc4-a2ac-9c06cadb382e"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "a9f122a7-3fac-408f-b1b5-0fa5e21023db",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 5
+      },
+      "id": "ca07f5f6-5a7d-47f9-a413-69f01bff9e23"
     }
   ],
   "playerHit1Script": [],
