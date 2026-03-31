@@ -3,14 +3,14 @@
   "id": "b6df2eca-443d-488f-8c5f-45cb91f41224",
   "_index": 16,
   "name": "part2/02_03_Crazy Darkness",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [
-    "dmg",
+    "367c5da6-894f-4142-9d10-917533d9a517",
     "dmg"
   ],
   "spritePaletteIds": [],

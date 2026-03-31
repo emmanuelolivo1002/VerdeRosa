@@ -58,8 +58,8 @@
     },
     {
       "id": "78d31eda-80bb-49a3-b95c-ebf81f0ff957__L1",
-      "name": "hold_frames",
-      "symbol": "var_hold_frames"
+      "name": "hold_seconds",
+      "symbol": "var_hold_seconds"
     },
     {
       "id": "78d31eda-80bb-49a3-b95c-ebf81f0ff957__L2",
@@ -90,6 +90,11 @@
       "id": "0fdc52ef-e50e-48a4-be10-b263322ff263__L0",
       "name": "test",
       "symbol": "var_test_0"
+    },
+    {
+      "id": "78d31eda-80bb-49a3-b95c-ebf81f0ff957__L3",
+      "name": "displayed_frame",
+      "symbol": "var_displayed_frame"
     }
   ],
   "constants": []

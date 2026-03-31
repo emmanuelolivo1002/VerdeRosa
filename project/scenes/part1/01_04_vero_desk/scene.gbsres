@@ -3,14 +3,14 @@
   "id": "c1ac7397-040c-49e4-a662-41eaa6b0cce7",
   "_index": 9,
   "name": "part1/01_04_Vero Desk",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "59c44f10-4b19-45b3-919e-c60a6d3e2a32",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [
-    "dmg",
+    "367c5da6-894f-4142-9d10-917533d9a517",
     "dmg"
   ],
   "spritePaletteIds": [],
@@ -51,41 +51,15 @@
       "args": {
         "time": {
           "type": "number",
-          "value": 1
+          "value": 3
         },
         "frames": {
           "type": "number",
           "value": 1
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "49492924-bc73-489f-ad98-1f5eec032859"
-    },
-    {
-      "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
-      "args": {
-        "text": [
-          "Evidente es que \nal humano",
-          "La muerte llega \ninminente"
-        ],
-        "__scriptTabs": "layout",
-        "boxHeight": 4,
-        "boxWidth": 20,
-        "boxX": 0,
-        "boxY": 4,
-        "showBorder": "true",
-        "showActors": "true",
-        "clearPrevious": false,
-        "textInv": true,
-        "textX": 2,
-        "textY": 4,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "avatarId": "",
-        "__collapse": false,
-        "__comment": true
-      },
-      "id": "56ac9706-1246-4431-a6df-c072463202e9"
     },
     {
       "command": "EVENT_IF",

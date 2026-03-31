@@ -3,17 +3,25 @@
   "id": "908b9800-bac9-44a5-95e6-e2e6ae09a5b8",
   "_index": 28,
   "name": "part3/03_04_Xolotl_Goodbye",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [
+    "367c5da6-894f-4142-9d10-917533d9a517",
     "dmg",
-    "dmg"
+    null,
+    null,
+    null,
+    null,
+    null,
+    "367c5da6-894f-4142-9d10-917533d9a517"
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "57992d06-feda-4332-b993-396e601f9bd2"
+  ],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_31",
