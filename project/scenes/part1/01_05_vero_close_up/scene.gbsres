@@ -3,33 +3,25 @@
   "id": "976c3d52-4954-49e0-8add-084441604673",
   "_index": 10,
   "name": "part1/01_05_Vero Close Up",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "49f5b0c2-61c5-4042-ad03-0952168073b4",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [
-    "dmg",
+    "367c5da6-894f-4142-9d10-917533d9a517",
     "dmg"
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "367c5da6-894f-4142-9d10-917533d9a517"
+  ],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_11",
   "x": 1232,
   "y": 664,
   "script": [
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "Vero Close Up with \nPhone in hand",
-        "x": 1,
-        "y": 7,
-        "location": "background"
-      },
-      "id": "f7517875-3bb7-43e0-8b3c-2291d251e0af"
-    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {

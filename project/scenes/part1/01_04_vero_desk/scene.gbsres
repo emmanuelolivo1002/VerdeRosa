@@ -21,16 +21,6 @@
   "y": 664,
   "script": [
     {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "Vero Desk",
-        "x": 1,
-        "y": 7,
-        "location": "background"
-      },
-      "id": "d5eb9b1b-ae62-400b-bb6d-d19b7b554e6e"
-    },
-    {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$",

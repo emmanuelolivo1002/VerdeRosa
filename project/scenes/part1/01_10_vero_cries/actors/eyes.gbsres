@@ -1,0 +1,39 @@
+{
+  "_resourceType": "actor",
+  "id": "c4aaefa4-ef5a-426c-8f19-57f3d14531a0",
+  "name": "eyes",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "171a40d3-f07d-4749-9608-1591229260fc",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_12",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": false
+      },
+      "id": "79fed56e-54c6-4f46-aaa7-708c3151c0ba"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 9,
+  "y": 16,
+  "_index": 0
+}

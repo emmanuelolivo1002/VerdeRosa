@@ -1,0 +1,50 @@
+{
+  "_resourceType": "actor",
+  "id": "323cc8d4-7518-4c36-bdf9-203f276a2feb",
+  "name": "eyes_and_hand-with-phone",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f22193a4-5ebc-4f5e-8651-b79c8a138908",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_3",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": false
+      },
+      "id": "ee1a5336-7e34-4150-90ca-6ad72390297e"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "1a2716c7-7e17-46fe-886f-f25d5c4ed1d3"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 9,
+  "y": 17,
+  "_index": 0
+}

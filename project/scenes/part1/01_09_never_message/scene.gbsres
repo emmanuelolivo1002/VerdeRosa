@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
-  "id": "9258eda2-b420-4976-87c1-42f465d17c2d",
-  "_index": 11,
-  "name": "part1/01_06_Phone Screen",
+  "id": "7d0a37c0-dced-454c-b0ed-4803fb3069ce",
+  "_index": 37,
+  "name": "part1/01_09_Never_message",
   "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
   "tilesetId": "",
   "width": 20,
@@ -11,16 +11,16 @@
   "colorModeOverride": "none",
   "paletteIds": [
     "367c5da6-894f-4142-9d10-917533d9a517",
-    "dmg"
+    "default-bg-3"
   ],
   "spritePaletteIds": [
-    "367c5da6-894f-4142-9d10-917533d9a517"
+    "aeb46c61-5f70-43fa-9b00-ce502ea5db3d"
   ],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_12",
-  "x": 1440,
-  "y": 656,
+  "symbol": "scene_18",
+  "x": 1000,
+  "y": 1176,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -28,7 +28,15 @@
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "8b25726a-b8bc-4bde-bcbb-e32272358e75"
+      "id": "6bb2581e-7664-4eb1-b8d5-4725166f4439"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "0b8613e9-c75f-4d2c-8381-14734d8fca34"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -36,7 +44,14 @@
         "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
         "__collapse": true
       },
-      "id": "d4ca3ba9-6ad3-4e22-8653-1d1c32f33a6b"
+      "id": "12ed6ba0-56b1-4131-9bf7-83bf56e04a33"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "096de2d9-4373-4413-8cca-0d1778b8c7fb"
+      },
+      "id": "7ec6e948-7dcb-460a-b5ee-093de2777d48"
     },
     {
       "command": "EVENT_IF",
@@ -61,24 +76,24 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!She uses her phone\nall night.\nIn her privacy she\nuses the dating app,\n!F:2bbe3caf-3218-4df8-9161-94cdc7088b59!FINDER",
+              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!She has never \nmessaged anybody",
               "x": 1,
-              "y": 3,
+              "y": 4,
               "location": "background"
             },
-            "id": "d9f1cb3f-6e99-4780-8943-9b2f416864d9"
+            "id": "d1c2cb44-4dc7-4cc8-be7f-c4f8a106c131"
           }
         ],
         "false": [
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Usa su teléfono \ntoda la noche.\nEn su privacidad,\nusa la app de \ncitas, !F:2bbe3caf-3218-4df8-9161-94cdc7088b59!FINDER",
+              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Nunca le ha \nmensajeado a nadie",
               "x": 1,
-              "y": 3,
+              "y": 4,
               "location": "background"
             },
-            "id": "6a2369de-cd22-4553-8387-5e9c3356f913"
+            "id": "8ecbf221-1c8e-4eb0-9dee-0e271ded8bd6"
           },
           {
             "command": "EVENT_TEXT_DRAW",
@@ -90,11 +105,36 @@
               "__collapse": true,
               "__comment": true
             },
-            "id": "7fe2cb11-60d2-4d93-a93a-d9b417dd14b5"
+            "id": "618844e7-ccd1-46fa-99c3-0eafb6b3ccee"
           }
         ]
       },
-      "id": "1fdb8809-7731-47d6-b2f6-d942b3f4f611"
+      "id": "8e59cb3d-61d6-4115-83ef-a22345a9e8a2"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 2
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "8d045f30-d5c2-4f69-8187-96e3b2d03910"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "096de2d9-4373-4413-8cca-0d1778b8c7fb",
+        "frame": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "5b7ee09a-a34a-45d0-b3fe-c6ad888c160b"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -111,7 +151,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "cb5c82d0-3bca-4006-9e1c-1b80c7b3f68b",
+              "sceneId": "a38ef5bd-59e9-4c5e-8d97-b56cc7f2c452",
               "x": {
                 "type": "number",
                 "value": 0
@@ -123,16 +163,23 @@
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "ba5a912e-4e11-461f-8203-d6927aac8532"
+            "id": "b3e4439f-6c5e-4c0f-8552-db4ff6c0ebd8"
           }
         ]
       },
-      "id": "70e394f0-1b47-403e-b554-c25c64b79ead"
+      "id": "69ac561e-3910-4368-8ee8-6bcde1c45042"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "096de2d9-4373-4413-8cca-0d1778b8c7fb"
+      },
+      "id": "ae1fd1b6-584f-41df-b184-237699dec05a"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
+  "autoFadeEventCollapse": false,
   "labelColor": "blue"
 }

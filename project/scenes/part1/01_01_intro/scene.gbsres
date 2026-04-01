@@ -7,7 +7,7 @@
   "symbol": "scene_3",
   "labelColor": "blue",
   "x": 296,
-  "y": 656,
+  "y": 664,
   "width": 20,
   "height": 18,
   "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
@@ -66,7 +66,8 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true,
+        "__label": "Narration"
       },
       "children": {
         "true": [

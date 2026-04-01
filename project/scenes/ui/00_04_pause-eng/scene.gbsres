@@ -9,7 +9,9 @@
   "height": 18,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
-  "paletteIds": [],
+  "paletteIds": [
+    "367c5da6-894f-4142-9d10-917533d9a517"
+  ],
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
