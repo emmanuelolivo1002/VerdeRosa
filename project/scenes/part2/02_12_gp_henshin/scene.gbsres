@@ -3,33 +3,25 @@
   "id": "a3cb50ad-67d0-437e-94bd-4c23b7bb617b",
   "_index": 22,
   "name": "part2/02_12_GP_Henshin",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "322d5028-397f-47a9-a155-f6e375327a16",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [
-    "dmg",
+    "2f2bc91a-e64c-41d6-95ba-4b671b1e7c20",
     "dmg"
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "367c5da6-894f-4142-9d10-917533d9a517"
+  ],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_26",
-  "x": 480,
+  "x": 432,
   "y": 1872,
   "script": [
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "Henshin",
-        "x": 5,
-        "y": 7,
-        "location": "background"
-      },
-      "id": "1014c3b2-e911-45a2-a23e-5ca992e592f0"
-    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
@@ -173,7 +165,7 @@
             "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
             "args": {
               "text": [
-                "Oprime !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!U"
+                "Presiona !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!U"
               ],
               "__scriptTabs": "text",
               "boxHeight": 4,
@@ -197,6 +189,25 @@
       "id": "c03b93cb-c8d1-4b2d-9c56-26e8a88da624"
     },
     {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "d4c9c071-cfb0-4e75-afe9-803b8de93e37",
+        "spriteStateId": "henshin",
+        "loopAnim": false,
+        "__collapse": false
+      },
+      "id": "01d9c5db-9ba0-410a-a413-3914450ff7e0"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "d4c9c071-cfb0-4e75-afe9-803b8de93e37",
+        "speed": 255,
+        "__collapse": true
+      },
+      "id": "b244c800-2301-4c0d-8309-c7846c40cd4f"
+    },
+    {
       "command": "EVENT_AWAIT_INPUT",
       "args": {
         "input": [
@@ -212,6 +223,18 @@
         "__collapse": false
       },
       "id": "796b8c11-6347-4376-b78b-3bc70a52b367"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "d4c9c071-cfb0-4e75-afe9-803b8de93e37",
+        "frame": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "7f9137f0-a0f2-486d-89bf-c891a2dde68d"
     },
     {
       "command": "EVENT_IF",
@@ -262,7 +285,7 @@
             "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
             "args": {
               "text": [
-                "Peesiona !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!D"
+                "Presiona !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!D"
               ],
               "__scriptTabs": "text",
               "boxHeight": 4,
@@ -302,6 +325,18 @@
       "id": "124950a3-e75c-443a-a791-6b84c92b11ae"
     },
     {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "d4c9c071-cfb0-4e75-afe9-803b8de93e37",
+        "frame": {
+          "type": "number",
+          "value": 2
+        },
+        "__collapse": false
+      },
+      "id": "256bab7f-36a8-43db-870f-d6194b27de8c"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -316,8 +351,8 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true,
-        "__label": "Instruction DOWN"
+        "__collapse": false,
+        "__label": "Instruction A"
       },
       "children": {
         "true": [
@@ -325,7 +360,7 @@
             "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
             "args": {
               "text": [
-                "Press !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!A !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!to Henshin"
+                "Press !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!A !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!to !F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!HENSHIN"
               ],
               "__scriptTabs": "text",
               "boxHeight": 4,
@@ -350,7 +385,7 @@
             "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
             "args": {
               "text": [
-                "Oprime !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!A !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!para\nel HENSHIN"
+                "Presiona !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!A !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!para\nel !F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!HENSHIN"
               ],
               "__scriptTabs": "text",
               "boxHeight": 4,
@@ -374,50 +409,6 @@
       "id": "1391dd24-32bf-4b7c-8b80-522d862d36dc"
     },
     {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "HENSHIN!!",
-        "x": 5,
-        "y": 7,
-        "location": "background",
-        "__collapse": false
-      },
-      "id": "88c9e0ba-719d-4a74-bcca-c519c2760fdc"
-    },
-    {
-      "command": "EVENT_SET_INPUT_SCRIPT",
-      "args": {
-        "input": [
-          "a"
-        ],
-        "override": true,
-        "__scriptTabs": "press",
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "114f6c24-0d8e-498b-8432-278cade85e52",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "direction": "",
-              "fadeSpeed": "2"
-            },
-            "id": "8a66c7b4-ecb9-4ec3-8381-d46cd3eae8ce"
-          }
-        ]
-      },
-      "id": "0ec0fd6a-8e8c-4092-96e9-c1c26fef7a9c"
-    },
-    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "114f6c24-0d8e-498b-8432-278cade85e52",
@@ -430,7 +421,7 @@
           "value": 0
         },
         "direction": "",
-        "fadeSpeed": "2"
+        "fadeSpeed": 1
       },
       "id": "ebe36565-08bd-4deb-af63-36047812b71a"
     }
