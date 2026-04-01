@@ -7,7 +7,7 @@
   "symbol": "scene_3",
   "labelColor": "blue",
   "x": 296,
-  "y": 664,
+  "y": 648,
   "width": 20,
   "height": 18,
   "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
@@ -66,7 +66,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Narration"
       },
       "children": {
@@ -74,7 +74,7 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!This is the story \nof !F:2bbe3caf-3218-4df8-9161-94cdc7088b59!VERO !F:c38c5c88-d25a-4c03-961f-96023b78359e!and how \nshe came to know \nthe !F:2bbe3caf-3218-4df8-9161-94cdc7088b59!Pink !F:c38c5c88-d25a-4c03-961f-96023b78359e!side of \nlife",
+              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!This is the story \nof !F:2bbe3caf-3218-4df8-9161-94cdc7088b59!VERO !F:c38c5c88-d25a-4c03-961f-96023b78359e!and how \nshe came to know \nthe !F:2bbe3caf-3218-4df8-9161-94cdc7088b59!PINK !F:c38c5c88-d25a-4c03-961f-96023b78359e!side of \nlife",
               "x": 1,
               "y": 4,
               "location": "background"
@@ -92,18 +92,6 @@
               "location": "background"
             },
             "id": "e08843c0-abb9-44bd-8eb1-448f5ae96d80"
-          },
-          {
-            "command": "EVENT_TEXT_DRAW",
-            "args": {
-              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Esta es la \nhistoria de !F:71e95cc4-4a41-4d79-b548-10713669ecc9!VERO \n!F:c38c5c88-d25a-4c03-961f-96023b78359e!y de cómo llegó\na conocer el lado \n!F:71e95cc4-4a41-4d79-b548-10713669ecc9!ROSA !F:c38c5c88-d25a-4c03-961f-96023b78359e!de la vida",
-              "x": 1,
-              "y": 4,
-              "location": "background",
-              "__collapse": true,
-              "__comment": true
-            },
-            "id": "1e8a1188-dd89-43ea-98bc-0a863a23dfdd"
           }
         ]
       },
@@ -125,14 +113,14 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "79ff2074-34ac-4b97-9053-bc8e161e6f3b",
+              "sceneId": "a9f122a7-3fac-408f-b1b5-0fa5e21023db",
               "x": {
                 "type": "number",
                 "value": 0
@@ -178,7 +166,7 @@
           "value": 0
         },
         "direction": "",
-        "fadeSpeed": 5
+        "fadeSpeed": 2
       },
       "id": "ca07f5f6-5a7d-47f9-a413-69f01bff9e23"
     }

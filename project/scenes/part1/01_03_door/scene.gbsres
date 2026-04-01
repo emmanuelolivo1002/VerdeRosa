@@ -18,7 +18,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_8",
   "x": 672,
-  "y": 664,
+  "y": 648,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -85,7 +85,7 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "4b696e87-b8b9-41b7-98c8-725011e1f8d1",
+        "sceneId": "3f3c09cf-f7a7-4f61-a038-6ddfeae6ac22",
         "x": {
           "type": "number",
           "value": 0
@@ -96,7 +96,7 @@
         },
         "direction": "",
         "fadeSpeed": "2",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "be17937f-da2b-4a72-98e2-68e4ec0f6f1b"
     }

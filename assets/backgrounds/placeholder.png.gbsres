@@ -3,11 +3,11 @@
   "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "name": "placeholder",
   "symbol": "bg_placeholder",
-  "tileColors": "07165+003+",
+  "tileColors": "078d+03!07d7+003+",
   "filename": "placeholder.png",
   "width": 20,
   "height": 18,
   "imageWidth": 160,
   "imageHeight": 144,
-  "autoColor": true
+  "autoColor": false
 }

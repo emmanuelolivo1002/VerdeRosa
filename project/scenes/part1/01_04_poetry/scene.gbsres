@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
-  "id": "a9f122a7-3fac-408f-b1b5-0fa5e21023db",
-  "_index": 6,
-  "name": "part1/01_02_Vero Introduction",
+  "id": "3f3c09cf-f7a7-4f61-a038-6ddfeae6ac22",
+  "_index": 38,
+  "name": "part1/01_04_Poetry",
   "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
   "tilesetId": "",
   "width": 20,
@@ -24,8 +24,8 @@
   ],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_7",
-  "x": 480,
+  "symbol": "scene_40",
+  "x": 856,
   "y": 648,
   "script": [
     {
@@ -34,7 +34,7 @@
         "actorId": "$self$",
         "__collapse": false
       },
-      "id": "31fe4498-f72f-45be-a03b-483165e38f5f"
+      "id": "1fe674f8-ffe5-4f05-bad4-f087c6d7f0c5"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -42,7 +42,7 @@
         "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
         "__collapse": true
       },
-      "id": "e9070765-728e-4b32-b4d0-7835d264d8c1"
+      "id": "0eb8df43-32eb-4d4b-a349-27e7bf21c762"
     },
     {
       "command": "EVENT_IF",
@@ -67,28 +67,28 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "!F:2bbe3caf-3218-4df8-9161-94cdc7088b59!VERO !F:c38c5c88-d25a-4c03-961f-96023b78359e!lives by\nherself. She rarely\nleaves her room.",
+              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!She spends her \ndays listening to\nmusic and writing\npoetry",
               "x": 1,
               "y": 4,
               "location": "background"
             },
-            "id": "f2c2aa37-4f0b-44d5-8650-d573862660d6"
+            "id": "b283ce1b-91ed-4580-8f07-e303d6f2cdf0"
           }
         ],
         "false": [
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "!F:2bbe3caf-3218-4df8-9161-94cdc7088b59!VERO !F:c38c5c88-d25a-4c03-961f-96023b78359e!vive sola,\nraramente sale \nde su cuarto.",
+              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Ella pasa sus días\nescuchando música\ny escribiendo\npoesía",
               "x": 1,
               "y": 4,
               "location": "background"
             },
-            "id": "597190f6-a067-4002-b2cd-3aae21eda362"
+            "id": "184ea9b6-0531-4a62-97c5-d2b54c78049d"
           }
         ]
       },
-      "id": "705800b8-3ffa-4750-9b66-626de0705239"
+      "id": "3b437ffc-ac66-48a5-874f-4e339b5681ce"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -105,7 +105,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "79ff2074-34ac-4b97-9053-bc8e161e6f3b",
+              "sceneId": "c1ac7397-040c-49e4-a662-41eaa6b0cce7",
               "x": {
                 "type": "number",
                 "value": 0
@@ -117,11 +117,11 @@
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "ba0ba5f0-e765-4410-9598-541b631b4d77"
+            "id": "36e01879-e548-4464-b718-37195219e700"
           }
         ]
       },
-      "id": "477a62c5-815d-405f-8435-b467ae05120f"
+      "id": "8c6f3e1f-95ad-4a8e-a194-609c766aa8e2"
     },
     {
       "command": "EVENT_WAIT",
@@ -136,12 +136,12 @@
         },
         "__collapse": false
       },
-      "id": "6ac47da5-12a0-4bbc-9c49-864076d86b17"
+      "id": "c628d49a-4e70-4abb-bfcd-3f1cfeccdbe7"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "79ff2074-34ac-4b97-9053-bc8e161e6f3b",
+        "sceneId": "c1ac7397-040c-49e4-a662-41eaa6b0cce7",
         "x": {
           "type": "number",
           "value": 0
@@ -153,7 +153,7 @@
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "90dda89e-bb75-4d77-84bd-34a188c40ff6"
+      "id": "cde12ea3-2b94-4f55-b8d1-1ea108bf1c13"
     }
   ],
   "playerHit1Script": [],

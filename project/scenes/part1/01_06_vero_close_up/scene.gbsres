@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
   "id": "976c3d52-4954-49e0-8add-084441604673",
-  "_index": 10,
-  "name": "part1/01_05_Vero Close Up",
+  "_index": 9,
+  "name": "part1/01_06_Vero Close Up",
   "backgroundId": "49f5b0c2-61c5-4042-ad03-0952168073b4",
   "tilesetId": "",
   "width": 20,
@@ -20,7 +20,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_11",
   "x": 1232,
-  "y": 664,
+  "y": 648,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",

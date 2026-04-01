@@ -1,16 +1,16 @@
 {
   "_resourceType": "scene",
   "id": "2f06b990-4c29-42d6-8464-a2f71de30fff",
-  "_index": 30,
+  "_index": 29,
   "name": "part4/04_02_Dream",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [
-    "dmg",
+    "2f2bc91a-e64c-41d6-95ba-4b671b1e7c20",
     "dmg"
   ],
   "spritePaletteIds": [],
@@ -37,6 +37,52 @@
         "__collapse": true
       },
       "id": "12050670-6ea8-4169-b180-c7b16cc0f047"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false,
+        "__label": "Narration"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Was it all a dream?",
+              "x": 1,
+              "y": 4,
+              "location": "background"
+            },
+            "id": "75784e37-3605-40b6-9316-b2e05b1ed8a4"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!¿Fue todo un sueño?",
+              "x": 1,
+              "y": 4,
+              "location": "background"
+            },
+            "id": "d82e6e2d-8362-443b-8151-677c5f4cf91a"
+          }
+        ]
+      },
+      "id": "c8522395-535a-48e9-8c93-28b55cb8b07d"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
