@@ -26,7 +26,8 @@
         "text": "Vero Sleeping\nDark Cloud above",
         "x": 1,
         "y": 7,
-        "location": "background"
+        "location": "background",
+        "__collapse": false
       },
       "id": "4b582020-ba3a-42f1-877b-e472b6d3d261"
     },
@@ -39,6 +40,19 @@
       "id": "526c7b9c-5e18-48ae-9f80-e13a1705e7b7"
     },
     {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 10,
+        "frames": 30,
+        "shakeDirection": "diagonal",
+        "magnitude": {
+          "type": "number",
+          "value": 50
+        }
+      },
+      "id": "9720c913-6942-4f39-a000-2dc59b099ea6"
+    },
+    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
@@ -47,37 +61,22 @@
       "id": "5d285bfb-6f41-400a-87a9-bbffe87bcc16"
     },
     {
-      "command": "EVENT_SET_INPUT_SCRIPT",
+      "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "input": [
-          "a"
-        ],
-        "override": true,
-        "__scriptTabs": "press",
+        "sceneId": "6272c8fa-1866-434a-8c95-a3d91745d096",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 0,
         "__collapse": false
       },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "6272c8fa-1866-434a-8c95-a3d91745d096",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "direction": "",
-              "fadeSpeed": "2"
-            },
-            "id": "496e943c-04dc-4486-a1ed-4bb6eb1685fe"
-          }
-        ]
-      },
-      "id": "fc05f39d-bc14-45ca-8907-46118dacb406"
+      "id": "785efedf-95ff-4099-a0f6-1d0a596b8fea"
     }
   ],
   "playerHit1Script": [],

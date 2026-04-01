@@ -21,16 +21,6 @@
   "y": 1640,
   "script": [
     {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "HENSHIN OBJ",
-        "x": 5,
-        "y": 7,
-        "location": "background"
-      },
-      "id": "07a36495-64e7-4140-ac09-c396a7e1a964"
-    },
-    {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$",

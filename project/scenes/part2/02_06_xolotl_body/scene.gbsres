@@ -84,7 +84,7 @@
             "args": {
               "text": [
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Hi! \nMy name is Xolotl",
-                ""
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¿Cómo te llamas\ntú?"
               ],
               "__section": "text",
               "avatarId": "",
@@ -105,6 +105,274 @@
               "__collapse": false
             },
             "id": "c7155aa7-b8d7-40c7-8d4e-cc064f767383"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "...Vero"
+              ],
+              "__section": "layout",
+              "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "22ee35d6-9327-4a96-b85a-8e9a499010bc"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!HA!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!So original..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "604cfa25-d040-4643-bb0b-2453ef9f35b2"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Are you a \ndemon?"
+              ],
+              "__section": "text",
+              "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "f12c9072-90e4-43dd-a48c-70dd61b5aa5a"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!HA!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Depends who you\nask!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "d86df7ee-1318-4ac2-a71b-6f18cdb805dc"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Where am I?",
+                "Am I dead?"
+              ],
+              "__section": "text",
+              "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "df780379-a311-4804-a7a5-97f5b382bdf0"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!No, not yet at \nleast.",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!We're in the\n!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!GREEN !F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!side.",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!I saw you had a \nbad encounter",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!with your thoughts"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "be213044-7fa1-44bd-a8cb-0beebe0022ef"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "..."
+              ],
+              "__section": "text",
+              "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "b86d4c94-44e3-4540-a8a9-3c02ed26649c"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!We better follow \nit",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!before it's too \nlate."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "62b90d63-8048-4d97-a05e-bbcbd51555e3"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Follow it?"
+              ],
+              "__section": "layout",
+              "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "fcbc4fa2-5dda-4647-8433-7538305f7db2"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Yes, it looks like \nit escaped",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!to the !F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!OTHER \n!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!side..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "058ad6d2-bb5d-4e3d-bb85-ae7cfbbb8edc"
           }
         ],
         "false": [
@@ -141,7 +409,7 @@
               "text": [
                 "...Vero"
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
               "minHeight": 4,
               "maxHeight": 7,
@@ -194,7 +462,7 @@
               "text": [
                 " ¿Eres un \n demonio?"
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
               "minHeight": 4,
               "maxHeight": 7,
@@ -237,7 +505,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "23e1b95d-33e5-4e3f-9789-fe0da999e73e"
           },
@@ -273,7 +541,7 @@
             "args": {
               "text": [
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!No, aún no.",
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Estamos en el \nlado VERDE.",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Estamos en el \nlado !F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!VERDE.",
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Ví que tuviste un \nmal encuentro",
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!con tus \npensamientos"
               ],
@@ -319,7 +587,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "b3126395-13da-41ee-bfa5-eb37b944d459"
           },
@@ -327,8 +595,6 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Aunque parece ser \nque ahora se fue",
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!al OTRO lado...",
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Será mejor que lo\nsigamos",
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!antes de que sea \ndemasiado tarde."
               ],
@@ -374,9 +640,36 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "2ac85734-ae26-4f78-b181-701172a7a943"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Sí, parece ser \nque escapó",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!al !F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!OTRO !F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!lado..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "dc3e1d50-630e-48c9-a100-a4c8feff0e88"
           }
         ]
       },

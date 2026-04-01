@@ -86,8 +86,8 @@
               "x": 1,
               "y": 4,
               "location": "background",
-              "__collapse": true,
-              "__comment": true
+              "__collapse": false,
+              "__comment": false
             },
             "id": "ac50bede-ca34-43bb-bfed-1a58e876126d"
           },
@@ -113,8 +113,8 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true,
-              "__comment": false
+              "__collapse": false,
+              "__comment": true
             },
             "id": "673d5d7c-e260-4209-8263-4fa22a22a115"
           }
@@ -142,8 +142,8 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true,
-              "__comment": true
+              "__collapse": false,
+              "__comment": false
             },
             "id": "77cb15eb-6a91-4357-bd12-0d3354deece6"
           },
@@ -154,7 +154,8 @@
               "x": 1,
               "y": 4,
               "location": "background",
-              "__collapse": false
+              "__collapse": true,
+              "__comment": true
             },
             "id": "7cd49cb4-4536-446e-95e2-451bed64d396"
           }

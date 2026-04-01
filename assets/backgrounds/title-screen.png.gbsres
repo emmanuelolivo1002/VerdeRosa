@@ -3,7 +3,7 @@
   "id": "b6bbcbe9-d2a0-4c0d-9277-f12cf88d9956",
   "name": "title-screen",
   "symbol": "bg_title_screen_0",
-  "tileColors": "",
+  "tileColors": "001e+01a+00a+01a+00a+01a+00a+01a+006+018+00b+01a+009+01b+009+01c+008+01c+008+01c+009+01b+009+019+00d+012+002+012+00f+01!002+01!0010+014+0011+012+0012+012+009+",
   "filename": "title-screen.png",
   "width": 20,
   "height": 18,

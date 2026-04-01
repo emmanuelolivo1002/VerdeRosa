@@ -262,7 +262,7 @@
             "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
             "args": {
               "text": [
-                "Oprime !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!D"
+                "Peesiona !F:d49a08ea-2d41-41ac-99b3-c236a7e5bdc7!D"
               ],
               "__scriptTabs": "text",
               "boxHeight": 4,
@@ -316,7 +316,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Instruction DOWN"
       },
       "children": {
@@ -392,7 +392,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -416,6 +416,23 @@
         ]
       },
       "id": "0ec0fd6a-8e8c-4092-96e9-c1c26fef7a9c"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "114f6c24-0d8e-498b-8432-278cade85e52",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "ebe36565-08bd-4deb-af63-36047812b71a"
     }
   ],
   "playerHit1Script": [],

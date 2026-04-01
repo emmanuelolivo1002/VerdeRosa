@@ -3,7 +3,7 @@
   "id": "b58cad3b-ebaf-4e02-95a1-831775bbf8d7",
   "name": "cover-with-press-start",
   "symbol": "bg_cover_with_press_start",
-  "tileColors": "",
+  "tileColors": "008f+07!00c+07!00cb+",
   "filename": "cover-with-press-start.png",
   "width": 20,
   "height": 18,

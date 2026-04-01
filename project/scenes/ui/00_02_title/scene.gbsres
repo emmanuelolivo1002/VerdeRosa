@@ -7,7 +7,7 @@
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "type": "LOGO",
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [
@@ -21,7 +21,7 @@
     "367c5da6-894f-4142-9d10-917533d9a517"
   ],
   "collisions": "00168+",
-  "autoFadeSpeed": 1,
+  "autoFadeSpeed": 4,
   "symbol": "scene_2",
   "x": 472,
   "y": 352,
@@ -34,13 +34,13 @@
       "id": "d7d6f17e-7db4-4241-bb45-37907f5e0042"
     },
     {
-      "command": "EVENT_IF_INPUT",
+      "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
           "start"
         ],
-        "__collapseElse": true,
-        "__disableElse": true
+        "override": true,
+        "__scriptTabs": "press"
       },
       "children": {
         "true": [
@@ -61,15 +61,14 @@
             },
             "id": "9f5e12cb-79d1-418c-ad40-cece67449e4f"
           }
-        ],
-        "false": []
+        ]
       },
-      "id": "0a382439-da0c-4eec-8942-9a1456c77bbb"
+      "id": "738a495c-2b9e-400a-8044-08f32b9baddd"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
+  "autoFadeEventCollapse": false,
   "labelColor": "gray"
 }
