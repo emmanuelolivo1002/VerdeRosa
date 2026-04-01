@@ -3,7 +3,7 @@
   "id": "3ec29ada-9c7f-4274-9720-ad81ff9ef9e0",
   "_index": 21,
   "name": "part2/02_11_Henshin_Object",
-  "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
+  "backgroundId": "7ac6979d-703c-4d86-96ba-bf62ff3716e4",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -17,8 +17,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_25",
-  "x": 2792,
-  "y": 1632,
+  "x": 2736,
+  "y": 1640,
   "script": [
     {
       "command": "EVENT_TEXT_DRAW",
