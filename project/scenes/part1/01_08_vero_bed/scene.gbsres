@@ -3,33 +3,25 @@
   "id": "b57488e3-60c1-4f65-9b5b-3ffe1ddafa94",
   "_index": 13,
   "name": "part1/01_08_Vero Bed",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "49f5b0c2-61c5-4042-ad03-0952168073b4",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [
-    "dmg",
-    "dmg"
+    "367c5da6-894f-4142-9d10-917533d9a517",
+    "default-bg-3"
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "367c5da6-894f-4142-9d10-917533d9a517"
+  ],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_14",
-  "x": 776,
-  "y": 1160,
+  "x": 792,
+  "y": 1176,
   "script": [
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "Vero turns \noff phone\nCries T-T",
-        "x": 1,
-        "y": 7,
-        "location": "background"
-      },
-      "id": "858e824d-64cf-4394-9d2b-c8bb59e8e962"
-    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
@@ -37,6 +29,14 @@
         "__collapse": true
       },
       "id": "6f7c586c-60a5-4bdd-b0bb-677bc4a91c7e"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "0f50ae56-3cb5-43bf-bf65-78effc2dbd8c"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -47,6 +47,15 @@
       "id": "2e3664c4-9eba-441e-bad8-fc0f5c0b0eed"
     },
     {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "c1b1a6d6-cc8e-49a5-b140-f4b15a51f0ab",
+        "spriteStateId": "phone_up_simple",
+        "loopAnim": true
+      },
+      "id": "37249453-450c-4f70-8cf0-ec8cc950099a"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
@@ -54,7 +63,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [

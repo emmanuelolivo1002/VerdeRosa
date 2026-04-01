@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "322d5028-397f-47a9-a155-f6e375327a16",
+  "name": "Vero-bed",
+  "symbol": "bg_vero_bed",
+  "tileColors": "",
+  "filename": "Vero-bed.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
