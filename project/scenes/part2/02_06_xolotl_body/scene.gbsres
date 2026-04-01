@@ -2,32 +2,33 @@
   "_resourceType": "scene",
   "id": "cf2b66a0-c113-4324-b530-fcd1de070171",
   "_index": 17,
+  "type": "TOPDOWN",
   "name": "part2/02_06_Xolotl_body",
-  "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
-  "tilesetId": "",
+  "symbol": "scene_20",
+  "labelColor": "green",
+  "x": 1288,
+  "y": 1640,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
+  "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
     "367c5da6-894f-4142-9d10-917533d9a517",
     "dmg",
-    null,
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
+    "",
     "367c5da6-894f-4142-9d10-917533d9a517"
   ],
   "spritePaletteIds": [
     "57992d06-feda-4332-b993-396e601f9bd2",
     "default-bg-1"
   ],
-  "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_20",
-  "x": 1288,
-  "y": 1640,
+  "autoFadeEventCollapse": true,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -418,6 +419,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
-  "labelColor": "green"
+  "collisions": ""
 }
