@@ -114,11 +114,11 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Look! That's the\nGREEN WALL",
-                "That divides all \nthat is",
-                "from what's to be ",
-                "We need to cross \nit to get to",
-                "the PINK SIDE."
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Look! That's the\nGREEN WALL",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!That divides all \nthat is",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!from what's to be ",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!We need to cross \nit to get to",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!the PINK SIDE."
               ],
               "__section": "text",
               "avatarId": "",
@@ -146,11 +146,11 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "¡Mira! Esa es la\nMURALLA VERDE",
-                "La que divide todo\nlo que fue",
-                "de lo que será.",
-                "Debemos cruzarla \npara llegar",
-                "al LADO ROSA."
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Mira! Esa es la\nMURALLA VERDE",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!La que divide todo\nlo que fue",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!de lo que será.",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Debemos cruzarla \npara llegar",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!al LADO ROSA."
               ],
               "__section": "text",
               "avatarId": "",

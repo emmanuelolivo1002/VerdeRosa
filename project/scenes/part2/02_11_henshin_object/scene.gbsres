@@ -69,8 +69,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "This will help!",
-                "This is the\nHENSHINATOR"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!This will help!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!This is the\nHENSHINATOR"
               ],
               "__section": "text",
               "avatarId": "",
@@ -122,13 +122,13 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "HA!",
-                "This is funnier\nin spanish...",
-                "This will give you\none of my powers",
-                "Maybe it's not \nwhat it was before",
-                "But if we combine\nour powers,",
-                "We might be able\nto succeed!",
-                "This will turn \nyou into your \ntrue self!"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!HA!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!This is funnier\nin spanish...",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!This will give you\none of my powers",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Maybe it's not \nwhat it was before",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!But if we combine\nour powers,",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!We might be able\nto succeed!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!This will turn \nyou into your \ntrue self!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -156,8 +156,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "¡Con esto tienes!",
-                "Este es el \nHENSHINADOR"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Con esto tienes!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Este es el \nHENSHINADOR"
               ],
               "__section": "text",
               "avatarId": "",
@@ -209,13 +209,13 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "¡JUAS JUAS!",
-                "¡Se pronuncia\nJENSHINADOR!",
-                "Esto te dará una\nde mis habilidades",
-                "Tal vez ya no sea \nlo que era antes",
-                "Pero a lo mejor y\ncombinando nuestro",
-                "poder juntos, \nesto podrá salir.",
-                "Esto te convertirá\nen tu verdadero yo"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡JUAS JUAS!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Se pronuncia\nJENSHINADOR!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Esto te dará una\nde mis habilidades",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Tal vez ya no sea \nlo que era antes",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Pero a lo mejor y\ncombinando nuestro",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!poder juntos, \nesto podrá salir.",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Esto te convertirá\nen tu verdadero yo"
               ],
               "__section": "text",
               "avatarId": "",

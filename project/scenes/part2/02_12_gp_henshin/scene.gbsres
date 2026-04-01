@@ -70,7 +70,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Ok, listen to my\ninstructions"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Ok, listen to my\ninstructions"
               ],
               "__section": "behavior",
               "avatarId": "",
@@ -98,7 +98,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Ok, escucha mis \ninstrucciones"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Ok, escucha mis \ninstrucciones"
               ],
               "__section": "text",
               "avatarId": "",

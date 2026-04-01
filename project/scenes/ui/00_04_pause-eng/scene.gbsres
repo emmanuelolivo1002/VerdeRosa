@@ -26,24 +26,24 @@
       "id": "89119954-6083-473c-803c-b1d2d3c1c44f"
     },
     {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "right"
+        }
+      },
+      "id": "ee7d9818-bb3a-44c7-827a-33f79e50a9e5"
+    },
+    {
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "player",
         "spriteStateId": "",
-        "loopAnim": false
+        "loopAnim": true
       },
       "id": "add3f7f6-a492-47fc-9f18-b118d12e5ad7"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_FRAME",
-      "args": {
-        "actorId": "$self$",
-        "frame": {
-          "type": "number",
-          "value": 0
-        }
-      },
-      "id": "144f570e-951c-44e3-aa5e-494454c3c3f6"
     },
     {
       "command": "EVENT_ACTOR_SET_POSITION",

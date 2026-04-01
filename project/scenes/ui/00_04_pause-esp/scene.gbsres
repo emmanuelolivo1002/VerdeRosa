@@ -20,10 +20,21 @@
     {
       "command": "EVENT_PLAYER_SET_SPRITE",
       "args": {
-        "spriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+        "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
         "__collapse": false
       },
       "id": "b8070766-a533-4ce1-9ad3-336c1380a1d0"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "right"
+        }
+      },
+      "id": "a4c9cd08-2832-4b14-b932-70c48e825679"
     },
     {
       "command": "EVENT_ACTOR_SET_POSITION",

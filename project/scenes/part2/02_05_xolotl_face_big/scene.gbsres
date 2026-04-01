@@ -11,7 +11,13 @@
   "colorModeOverride": "none",
   "paletteIds": [
     "367c5da6-894f-4142-9d10-917533d9a517",
-    "dmg"
+    "dmg",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "367c5da6-894f-4142-9d10-917533d9a517"
   ],
   "spritePaletteIds": [
     "57992d06-feda-4332-b993-396e601f9bd2"
@@ -23,6 +29,21 @@
   "y": 1640,
   "script": [
     {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": false
+      },
+      "id": "a1f546ed-1e38-4931-a721-7b59195932eb"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "53443b52-68b0-4b8f-a461-775efe1a99db"
+    },
+    {
       "command": "EVENT_WAIT",
       "args": {
         "time": {
@@ -32,7 +53,8 @@
         "frames": {
           "type": "number",
           "value": 1
-        }
+        },
+        "__collapse": true
       },
       "id": "ce720b19-b51a-417a-b68f-808973b96a3a"
     },
@@ -51,15 +73,27 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
           {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Looks like you\nneed some help",
+              "x": 1,
+              "y": 4,
+              "location": "background",
+              "__collapse": true,
+              "__comment": true
+            },
+            "id": "ac50bede-ca34-43bb-bfed-1a58e876126d"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Looks like you\nneed some help!"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Looks like you\nneed some help!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -77,7 +111,8 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__comment": false
             },
             "id": "673d5d7c-e260-4209-8263-4fa22a22a115"
           }
@@ -87,7 +122,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "¡Parece que \nnecesitas ayuda!"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Parece que \nnecesitas ayuda!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -105,9 +140,21 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true,
+              "__comment": true
             },
             "id": "77cb15eb-6a91-4357-bd12-0d3354deece6"
+          },
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Parece que \nnecesitas ayuda",
+              "x": 1,
+              "y": 4,
+              "location": "background",
+              "__collapse": false
+            },
+            "id": "7cd49cb4-4536-446e-95e2-451bed64d396"
           }
         ]
       },
@@ -172,21 +219,6 @@
         "__collapse": true
       },
       "id": "0aa16e83-5d35-4120-b3b8-95583af0b4f0"
-    },
-    {
-      "command": "EVENT_ACTOR_HIDE",
-      "args": {
-        "actorId": "$self$"
-      },
-      "id": "53443b52-68b0-4b8f-a461-775efe1a99db"
-    },
-    {
-      "command": "EVENT_ACTOR_DEACTIVATE",
-      "args": {
-        "actorId": "$self$",
-        "__collapse": false
-      },
-      "id": "a1f546ed-1e38-4931-a721-7b59195932eb"
     },
     {
       "command": "EVENT_SET_VALUE",

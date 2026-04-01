@@ -61,8 +61,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Aw that's so cute!",
-                "Now it is a more \nmanageable size"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Aw that's so cute!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Now it is a more \nmanageable size"
               ],
               "__section": "text",
               "avatarId": "",
@@ -90,8 +90,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "¡Ay que monito!",
-                "Ahora es de tamaño\nmás manejable"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Ay que monito!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Ahora es de tamaño\nmás manejable"
               ],
               "__section": "text",
               "avatarId": "",

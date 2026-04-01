@@ -12,14 +12,14 @@
   "sgbEnabled": false,
   "customHead": "",
   "defaultBackgroundPaletteIds": [
-    "dmg",
+    "367c5da6-894f-4142-9d10-917533d9a517",
     "default-bg-2",
     "default-bg-3",
     "default-bg-4",
     "default-bg-5",
     "default-bg-6",
     "dmg",
-    "dmg"
+    "367c5da6-894f-4142-9d10-917533d9a517"
   ],
   "defaultSpritePaletteIds": [
     "dmg",

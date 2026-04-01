@@ -70,9 +70,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Vero",
-                "I'm so proud \nof you!",
-                "You managed to \ndeal with your \nanguish"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Vero",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!I'm so proud \nof you!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!You managed to \ndeal with your \nanguish"
               ],
               "__section": "text",
               "avatarId": "",
@@ -100,9 +100,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Vero",
-                "Estoy orgulloso\nde ti",
-                "Lograste lidiar\ncon tu angustia"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Vero",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Estoy orgulloso\nde ti",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Lograste lidiar\ncon tu angustia"
               ],
               "__section": "text",
               "avatarId": "",

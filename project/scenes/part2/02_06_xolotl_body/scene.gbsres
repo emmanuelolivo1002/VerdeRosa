@@ -11,7 +11,13 @@
   "colorModeOverride": "none",
   "paletteIds": [
     "367c5da6-894f-4142-9d10-917533d9a517",
-    "dmg"
+    "dmg",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "367c5da6-894f-4142-9d10-917533d9a517"
   ],
   "spritePaletteIds": [
     "57992d06-feda-4332-b993-396e601f9bd2",
@@ -76,7 +82,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Hi! \nMy name is Xolotl",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Hi! \nMy name is Xolotl",
                 ""
               ],
               "__section": "text",
@@ -105,8 +111,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "¡holis! \nMe llamo Xolotl",
-                "¿Cómo te llamas\ntú?"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡holis! \nMe llamo Xolotl",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¿Cómo te llamas\ntú?"
               ],
               "__section": "text",
               "avatarId": "",
@@ -132,13 +138,13 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                " ...Vero"
+                "...Vero"
               ],
               "__section": "text",
               "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
               "textHeight": 5,
               "position": "bottom",
@@ -158,8 +164,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "¡JA!",
-                "Que original..."
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡JUAS JUAS!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Que original..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -211,8 +217,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "¡JA!",
-                "Depende a quién \nle preguntes "
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡JUAS JUAS!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Depende a quién \nle preguntes "
               ],
               "__section": "text",
               "avatarId": "",
@@ -265,10 +271,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "No, aún no.",
-                "Estamos en el \nlado VERDE.",
-                "Ví que tuviste un \nmal encuentro",
-                "con uno de tus \npensamientos"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!No, aún no.",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Estamos en el \nlado VERDE.",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Ví que tuviste un \nmal encuentro",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!con tus \npensamientos"
               ],
               "__section": "text",
               "avatarId": "",
@@ -320,10 +326,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Aunque parece ser \nque ahora se fue",
-                "al OTRO lado...",
-                "Será mejor que lo\nsigamos",
-                "antes de que sea \ndemasiado tarde."
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Aunque parece ser \nque ahora se fue",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!al OTRO lado...",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Será mejor que lo\nsigamos",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!antes de que sea \ndemasiado tarde."
               ],
               "__section": "text",
               "avatarId": "",

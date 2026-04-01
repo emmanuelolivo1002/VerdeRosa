@@ -69,7 +69,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Vero! That's it!"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Vero! That's it!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -121,8 +121,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Your anguish has\ntransformed",
-                "Into a big \nmonster!"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Your anguish has\ntransformed",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Into a big \nmonster!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -174,7 +174,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "You gotta fight!"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!You gotta fight!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -228,8 +228,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Relax, I told you \nI'd help you",
-                "Here, grab this..."
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Relax, I told you \nI'd help you",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Here, grab this..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -257,7 +257,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "¡Vero! ¡Ahí está!"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Vero! ¡Ahí está!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -309,9 +309,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Tu angustia se ha\ntransformado...",
-                "En una rana...",
-                "¡Una ANGUSTIANA!"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Tu angustia se ha\ntransformado...",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!En una rana...",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Una ANGUSTIANA!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -363,7 +363,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "¡Tienes que luchar!"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Tienes que luchar!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -417,8 +417,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Tranquila, te dije\nque te ayudaría",
-                "Ten esto..."
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Tranquila, te dije\nque te ayudaría",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Ten esto..."
               ],
               "__section": "text",
               "avatarId": "",

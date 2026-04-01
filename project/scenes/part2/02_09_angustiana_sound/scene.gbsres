@@ -83,7 +83,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Huh! What was \nthat?!"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Huh! What was \nthat?!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -111,7 +111,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "¡Achis! ¿Qué pasó?"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Achis! ¿Qué pasó?"
               ],
               "__section": "text",
               "avatarId": "",
