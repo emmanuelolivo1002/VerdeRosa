@@ -17,8 +17,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_28",
-  "x": 256,
-  "y": 2024,
+  "x": 264,
+  "y": 2208,
   "script": [
     {
       "command": "EVENT_TEXT_DRAW",
@@ -69,9 +69,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Listen Vero,",
-                "What you were \ntrying before ",
-                "won't work this\ntime"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Listen Vero,",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!What you were \ntrying before ",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!won't work this\ntime"
               ],
               "__section": "text",
               "avatarId": "",
@@ -122,10 +122,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "To defeat this \nkind of enemy",
-                "we need PATIENCE.",
-                "If you do what I\nsay we'll succeed",
-                "Understood?"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!To defeat this \nkind of enemy",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!we need PATIENCE.",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!If you do what I\nsay we'll succeed",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Understood?"
               ],
               "__section": "text",
               "avatarId": "",
@@ -177,7 +177,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Follow my \ninstructions!"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Follow my \ninstructions!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -205,8 +205,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Escucha Vero, ",
-                "Lo que intentaste\nprimero no servirá\nesta vez."
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Escucha Vero, ",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Lo que intentaste\nprimero no servirá\nesta vez."
               ],
               "__section": "text",
               "avatarId": "",
@@ -258,10 +258,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Vencer este tipo\nde enemigos",
-                "requiere paciencia.\n",
-                "Si haces lo que\ndigo venceremos",
-                "¿Entiendes?"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Vencer este tipo\nde enemigos",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!requiere paciencia.\n",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Si haces lo que\ndigo venceremos",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¿Entiendes?"
               ],
               "__section": "text",
               "avatarId": "",
@@ -313,7 +313,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "¡Sigue mis\ninstrucciones!"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Sigue mis\ninstrucciones!"
               ],
               "__section": "text",
               "avatarId": "",
