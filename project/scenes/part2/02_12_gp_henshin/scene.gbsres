@@ -428,6 +428,10 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_DIALOGUE_CLOSE_NONMODAL",
+            "id": "12e1dfbe-4c9d-49af-ad80-adc05b123c3f"
+          },
+          {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
               "sceneId": "114f6c24-0d8e-498b-8432-278cade85e52",
@@ -443,10 +447,6 @@
               "fadeSpeed": 1
             },
             "id": "ebe36565-08bd-4deb-af63-36047812b71a"
-          },
-          {
-            "command": "EVENT_DIALOGUE_CLOSE_NONMODAL",
-            "id": "12e1dfbe-4c9d-49af-ad80-adc05b123c3f"
           }
         ]
       },
