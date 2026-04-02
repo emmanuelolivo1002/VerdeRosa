@@ -74,7 +74,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Dialogue"
       },
       "children": {
@@ -145,7 +145,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [

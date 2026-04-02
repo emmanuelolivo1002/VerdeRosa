@@ -3,14 +3,14 @@
   "id": "5c6451c1-59aa-4e38-a0a9-f686b502b1f6",
   "_index": 16,
   "name": "part2/02_08_Lado_Rosa",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "f9879a1f-156f-48f1-9451-a0408b0d0f65",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [
-    "dmg",
+    "2f2bc91a-e64c-41d6-95ba-4b671b1e7c20",
     "dmg"
   ],
   "spritePaletteIds": [],
@@ -61,7 +61,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -165,6 +165,37 @@
         ]
       },
       "id": "849af6b6-4147-4211-b487-77a7a14dbe9f"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 4
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "7dc88ceb-145b-4533-b29c-72c61e9855dd"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "6db4c9a4-a214-4061-b8f0-b0a8890a2b9f",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "51d1e754-0917-40aa-93ab-5a2a014e88fd"
     }
   ],
   "playerHit1Script": [],
