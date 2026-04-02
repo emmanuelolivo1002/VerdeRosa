@@ -69,14 +69,14 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "You did it!",
-                "This is your \ntrue self!"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!You did it!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!This is your \n!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!true self!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
               "textHeight": 5,
               "position": "bottom",
@@ -121,7 +121,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Now it's time to\nbattle!"
+                "!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!Now it's time to\nbattle!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -149,8 +149,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "¡Lo lograste!",
-                "¡Este es tu\nverdadero yo!"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Lo lograste!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Este es tu\nverdadero yo!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -202,7 +202,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "¡Es hora de \nluchar!"
+                "!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!¡Es hora de \nluchar!"
               ],
               "__section": "text",
               "avatarId": "",

@@ -86,10 +86,10 @@
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Huh! What was \nthat?!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
               "textHeight": 5,
               "position": "bottom",
@@ -111,13 +111,13 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Achis! ¿Qué pasó?"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Achis! ¿Qué \npasó?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
               "textHeight": 5,
               "position": "bottom",

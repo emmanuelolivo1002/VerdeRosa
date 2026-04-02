@@ -53,7 +53,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Dialogue"
       },
       "children": {
@@ -62,13 +62,13 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Ok, listen to my\ninstructions"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Ok, listen to \nmy instructions"
               ],
-              "__section": "behavior",
-              "avatarId": "",
+              "__section": "text",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
               "textHeight": 5,
               "position": "bottom",
@@ -90,13 +90,13 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Ok, escucha mis \ninstrucciones"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Ok, escucha mis\ninstrucciones"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
               "textHeight": 5,
               "position": "bottom",

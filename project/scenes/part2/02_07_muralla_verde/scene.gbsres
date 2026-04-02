@@ -114,17 +114,17 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Look! That's the\nGREEN WALL",
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!That divides all \nthat is",
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!from what's to be ",
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!We need to cross \nit to get to",
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!the PINK SIDE."
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Look! That's \nthe !F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!GREEN WALL",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!That divides \nall that is",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!from what's \nto be ",
+                "ＦWe need to \ncross it ",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!to get to the \n!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!PINK SIDE."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
               "textHeight": 5,
               "position": "bottom",
@@ -136,7 +136,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "541c1ce9-f847-4e5c-97db-900f0cb5f416"
           }
@@ -146,17 +146,17 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Mira! Esa es la\nMURALLA VERDE",
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!La que divide todo\nlo que fue",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Mira! la\n!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!MURALLA VERDE",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!La que divide \ntodo lo que fue",
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!de lo que será.",
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Debemos cruzarla \npara llegar",
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!al LADO ROSA."
+                "ＦDebemos \ncruzarla ",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!para llegar al \n!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!LADO ROSA."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
               "textHeight": 5,
               "position": "bottom",
@@ -168,7 +168,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "f0911116-9446-493f-a34e-1bd07b75acb9"
           }

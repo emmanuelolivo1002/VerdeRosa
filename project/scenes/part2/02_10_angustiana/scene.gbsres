@@ -69,13 +69,13 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Vero! That's it!"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Vero! \nThat's it!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
               "textHeight": 5,
               "position": "bottom",
@@ -121,14 +121,14 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Your anguish has\ntransformed",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Your anguish \nhas transformed",
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Into a big \nmonster!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
               "textHeight": 5,
               "position": "bottom",
@@ -174,13 +174,13 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!You gotta fight!"
+                "!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!You gotta \nfight!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
               "textHeight": 5,
               "position": "bottom",
@@ -228,14 +228,14 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Relax, I told you \nI'd help you",
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Here, grab this..."
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Relax, I told \nyou I'd help \nyou",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Here, grab \nthis..."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
               "textHeight": 5,
               "position": "bottom",
@@ -309,15 +309,15 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Tu angustia se ha\ntransformado...",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Tu angustia \nse ha\ntransformado...",
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!En una rana...",
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Una ANGUSTIANA!"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Una \n!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!ANGUSTIANA!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
               "textHeight": 5,
               "position": "bottom",
@@ -363,13 +363,13 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Tienes que luchar!"
+                "!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!¡Tienes \nque luchar!"
               ],
-              "__section": "text",
-              "avatarId": "",
+              "__section": "layout",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
               "textHeight": 5,
               "position": "bottom",
@@ -417,14 +417,14 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Tranquila, te dije\nque te ayudaría",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Tranquila, te \ndije que te \nayudaría",
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Ten esto..."
               ],
-              "__section": "text",
-              "avatarId": "",
+              "__section": "layout",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
               "textHeight": 5,
               "position": "bottom",
