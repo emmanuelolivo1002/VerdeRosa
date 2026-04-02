@@ -3,7 +3,7 @@
   "id": "9a401a01-cc29-4a61-ae28-e988a485b1ee",
   "_index": 30,
   "name": "ui/00_05_Thank_You",
-  "backgroundId": "b6bbcbe9-d2a0-4c0d-9277-f12cf88d9956",
+  "backgroundId": "f365bd04-1245-4cdf-bdb2-c1f48bc4faa3",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -15,22 +15,11 @@
   ],
   "spritePaletteIds": [],
   "collisions": "",
-  "autoFadeSpeed": 1,
+  "autoFadeSpeed": 4,
   "symbol": "scene_38",
-  "x": 240,
-  "y": 3312,
+  "x": 1936,
+  "y": 2216,
   "script": [
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "Thank you for playing",
-        "x": 2,
-        "y": 7,
-        "location": "background",
-        "__collapse": false
-      },
-      "id": "3203c406-240c-4a06-9b9a-53376e5dd6b9"
-    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
@@ -73,7 +62,7 @@
           "value": 0
         },
         "direction": "",
-        "fadeSpeed": "2"
+        "fadeSpeed": 5
       },
       "id": "a8dd3b48-fd1a-4330-affa-58077b475a81"
     }
@@ -81,6 +70,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
+  "autoFadeEventCollapse": false,
   "labelColor": "gray"
 }

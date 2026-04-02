@@ -21,16 +21,6 @@
   "y": 1928,
   "script": [
     {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "HENSHIN \nANIMATION",
-        "x": 5,
-        "y": 7,
-        "location": "background"
-      },
-      "id": "6393a9a4-e308-45aa-aed2-ced796007538"
-    },
-    {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$",
@@ -243,7 +233,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "74a83fc6-cf87-4dda-952d-b34c8ede157e",
+              "sceneId": "9a401a01-cc29-4a61-ae28-e988a485b1ee",
               "x": {
                 "type": "number",
                 "value": 0

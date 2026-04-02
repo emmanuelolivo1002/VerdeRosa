@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "f365bd04-1245-4cdf-bdb2-c1f48bc4faa3",
+  "name": "thank-you",
+  "symbol": "bg_thank_you",
+  "tileColors": "",
+  "filename": "thank-you.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
