@@ -1,35 +1,33 @@
 {
   "_resourceType": "scene",
   "id": "b03e5b78-151f-420d-be6f-b92739b8a485",
-  "_index": 18,
+  "_index": 17,
   "name": "part2/02_10_Angustiana",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "38cafe9b-c6a8-4058-88ef-61169c34e948",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [
+    "2f2bc91a-e64c-41d6-95ba-4b671b1e7c20",
     "dmg",
-    "dmg"
+    null,
+    null,
+    null,
+    null,
+    null,
+    "57992d06-feda-4332-b993-396e601f9bd2"
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "default-bg-4"
+  ],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_24",
-  "x": 672,
+  "x": 640,
   "y": 1936,
   "script": [
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "Angustiana",
-        "x": 2,
-        "y": 7,
-        "location": "background"
-      },
-      "id": "ad48566e-6c21-4f1f-b15c-3595f66444d3"
-    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {

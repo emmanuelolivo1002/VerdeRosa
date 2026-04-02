@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "a3cb50ad-67d0-437e-94bd-4c23b7bb617b",
-  "_index": 20,
+  "_index": 19,
   "name": "part2/02_12_GP_Henshin",
   "backgroundId": "f0a5236c-5fd8-46bb-aa9c-d2c9efae84fa",
   "tilesetId": "",
@@ -19,8 +19,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_26",
-  "x": 1224,
-  "y": 1928,
+  "x": 1088,
+  "y": 1936,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
