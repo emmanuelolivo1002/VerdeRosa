@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "7d0a37c0-dced-454c-b0ed-4803fb3069ce",
-  "_index": 36,
+  "_index": 35,
   "name": "part1/01_09_Never_message",
   "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
   "tilesetId": "",
@@ -31,27 +31,12 @@
       "id": "6bb2581e-7664-4eb1-b8d5-4725166f4439"
     },
     {
-      "command": "EVENT_ACTOR_HIDE",
-      "args": {
-        "actorId": "$self$",
-        "__collapse": true
-      },
-      "id": "0b8613e9-c75f-4d2c-8381-14734d8fca34"
-    },
-    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
         "__collapse": true
       },
       "id": "12ed6ba0-56b1-4131-9bf7-83bf56e04a33"
-    },
-    {
-      "command": "EVENT_ACTOR_HIDE",
-      "args": {
-        "actorId": "096de2d9-4373-4413-8cca-0d1778b8c7fb"
-      },
-      "id": "7ec6e948-7dcb-460a-b5ee-093de2777d48"
     },
     {
       "command": "EVENT_IF",
@@ -88,24 +73,12 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Nunca le ha \nmensajeado a nadie",
+              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Nunca le ha \nmandado un \nmensaje a nadie",
               "x": 1,
               "y": 4,
               "location": "background"
             },
             "id": "8ecbf221-1c8e-4eb0-9dee-0e271ded8bd6"
-          },
-          {
-            "command": "EVENT_TEXT_DRAW",
-            "args": {
-              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Esta es la \nhistoria de !F:71e95cc4-4a41-4d79-b548-10713669ecc9!VERO \n!F:c38c5c88-d25a-4c03-961f-96023b78359e!y de cómo llegó\na conocer el lado \n!F:71e95cc4-4a41-4d79-b548-10713669ecc9!ROSA !F:c38c5c88-d25a-4c03-961f-96023b78359e!de la vida",
-              "x": 1,
-              "y": 4,
-              "location": "background",
-              "__collapse": true,
-              "__comment": true
-            },
-            "id": "618844e7-ccd1-46fa-99c3-0eafb6b3ccee"
           }
         ]
       },
@@ -124,17 +97,6 @@
         }
       },
       "id": "8d045f30-d5c2-4f69-8187-96e3b2d03910"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_FRAME",
-      "args": {
-        "actorId": "096de2d9-4373-4413-8cca-0d1778b8c7fb",
-        "frame": {
-          "type": "number",
-          "value": 0
-        }
-      },
-      "id": "5b7ee09a-a34a-45d0-b3fe-c6ad888c160b"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -168,13 +130,6 @@
         ]
       },
       "id": "69ac561e-3910-4368-8ee8-6bcde1c45042"
-    },
-    {
-      "command": "EVENT_ACTOR_SHOW",
-      "args": {
-        "actorId": "096de2d9-4373-4413-8cca-0d1778b8c7fb"
-      },
-      "id": "ae1fd1b6-584f-41df-b184-237699dec05a"
     }
   ],
   "playerHit1Script": [],

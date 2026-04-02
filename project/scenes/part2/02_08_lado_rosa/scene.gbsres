@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "5c6451c1-59aa-4e38-a0a9-f686b502b1f6",
-  "_index": 18,
+  "_index": 17,
   "name": "part2/02_08_Lado_Rosa",
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
@@ -102,8 +102,8 @@
             "args": {
               "text": [
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Este es el\n!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!LADO ROSA!",
-                "ＦDonde todo lo \nque cruza ",
-                "Ｆalcanza a \nconvertirse en ",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Donde todo lo \nque cruza ",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!alcanza a \nconvertirse en ",
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!su verdadero \nser.",
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!incluyendo \naquello que ",
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!talvez no nos \ngustaría ",

@@ -67,7 +67,7 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "!F:2bbe3caf-3218-4df8-9161-94cdc7088b59!VERO !F:c38c5c88-d25a-4c03-961f-96023b78359e!lives by\nherself. She rarely\nleaves her room.",
+              "text": "!F:2bbe3caf-3218-4df8-9161-94cdc7088b59!VERO !F:c38c5c88-d25a-4c03-961f-96023b78359e!lives by\nherself. She has \nno friends and \nrarely leaves \nher room.",
               "x": 1,
               "y": 4,
               "location": "background"
@@ -79,7 +79,7 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "!F:2bbe3caf-3218-4df8-9161-94cdc7088b59!VERO !F:c38c5c88-d25a-4c03-961f-96023b78359e!vive sola,\nraramente sale \nde su cuarto.",
+              "text": "!F:2bbe3caf-3218-4df8-9161-94cdc7088b59!VERO !F:c38c5c88-d25a-4c03-961f-96023b78359e!vive sola,\nno tiene amigos y\nraramente sale \nde su cuarto.",
               "x": 1,
               "y": 4,
               "location": "background"

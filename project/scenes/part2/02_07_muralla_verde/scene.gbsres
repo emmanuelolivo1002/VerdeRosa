@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "99e69793-fa7d-4ab2-ae07-0ca36d806cab",
-  "_index": 17,
+  "_index": 16,
   "name": "part2/02_07_Muralla_Verde",
   "backgroundId": "f4fc01aa-bded-44ca-b185-72df105636ae",
   "tilesetId": "",
@@ -149,7 +149,7 @@
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Mira! la\n!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!MURALLA VERDE",
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!La que divide \ntodo lo que fue",
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!de lo que será.",
-                "ＦDebemos \ncruzarla ",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Debemos \ncruzarla ",
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!para llegar al \n!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!LADO ROSA."
               ],
               "__section": "text",

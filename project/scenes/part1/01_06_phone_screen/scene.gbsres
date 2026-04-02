@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
   "id": "9258eda2-b420-4976-87c1-42f465d17c2d",
-  "_index": 10,
-  "name": "part1/01_07_Phone Screen",
+  "_index": 9,
+  "name": "part1/01_06_Phone Screen",
   "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
   "tilesetId": "",
   "width": 20,
@@ -19,7 +19,7 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_12",
-  "x": 1440,
+  "x": 1240,
   "y": 648,
   "script": [
     {
@@ -73,24 +73,12 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Usa su teléfono \ntoda la noche.\nEn su privacidad,\nusa la app de \ncitas, !F:2bbe3caf-3218-4df8-9161-94cdc7088b59!FINDER",
+              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Pasa sus noches\nusando su teléfono.\nEn su privacidad,\nusa la app de \ncitas, !F:2bbe3caf-3218-4df8-9161-94cdc7088b59!FINDER",
               "x": 1,
               "y": 3,
               "location": "background"
             },
             "id": "6a2369de-cd22-4553-8387-5e9c3356f913"
-          },
-          {
-            "command": "EVENT_TEXT_DRAW",
-            "args": {
-              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Esta es la \nhistoria de !F:71e95cc4-4a41-4d79-b548-10713669ecc9!VERO \n!F:c38c5c88-d25a-4c03-961f-96023b78359e!y de cómo llegó\na conocer el lado \n!F:71e95cc4-4a41-4d79-b548-10713669ecc9!ROSA !F:c38c5c88-d25a-4c03-961f-96023b78359e!de la vida",
-              "x": 1,
-              "y": 4,
-              "location": "background",
-              "__collapse": true,
-              "__comment": true
-            },
-            "id": "7fe2cb11-60d2-4d93-a93a-d9b417dd14b5"
           }
         ]
       },
