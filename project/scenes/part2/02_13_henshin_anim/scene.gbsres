@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "114f6c24-0d8e-498b-8432-278cade85e52",
   "_index": 20,
-  "name": "part2/02_12_HENSHIN_ANIM",
+  "name": "part2/02_13_HENSHIN_ANIM",
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
   "width": 20,
@@ -106,32 +106,6 @@
               "closeDelayFrames": 30
             },
             "id": "8165ef10-9bf3-4b81-b6d7-a35fe744e43f"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!Now it's time to\nbattle!"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": false
-            },
-            "id": "61bf03a5-ccd5-4baa-8fdc-a2b8fac10026"
           }
         ],
         "false": [
@@ -187,32 +161,6 @@
               "__collapse": false
             },
             "id": "b0757d0b-9534-44a5-bbff-f677942285fd"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!¡Es hora de \nluchar!"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": false
-            },
-            "id": "2500888d-5acc-4646-8113-0026b888fc65"
           }
         ]
       },
@@ -233,7 +181,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "9a401a01-cc29-4a61-ae28-e988a485b1ee",
+              "sceneId": "6b4465c1-fb70-4eca-96fd-83ff4a5d5a06",
               "x": {
                 "type": "number",
                 "value": 0
