@@ -45,6 +45,20 @@
       "id": "e9070765-728e-4b32-b4d0-7835d264d8c1"
     },
     {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 2
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "f17e912b-90d9-4982-9d15-832b03fedfb2"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -67,7 +81,7 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "!F:2bbe3caf-3218-4df8-9161-94cdc7088b59!VERO !F:c38c5c88-d25a-4c03-961f-96023b78359e!lives by\nherself. She has \nno friends and \nrarely leaves \nher room.",
+              "text": "!S3!!F:2bbe3caf-3218-4df8-9161-94cdc7088b59!VERO !F:c38c5c88-d25a-4c03-961f-96023b78359e!lives by\nherself. !W:1s!She has \nno friends and \nrarely leaves \nher room.",
               "x": 1,
               "y": 4,
               "location": "background"
@@ -79,7 +93,7 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "!F:2bbe3caf-3218-4df8-9161-94cdc7088b59!VERO !F:c38c5c88-d25a-4c03-961f-96023b78359e!vive sola,\nno tiene amigos y\nraramente sale \nde su cuarto.",
+              "text": "!S3!!F:2bbe3caf-3218-4df8-9161-94cdc7088b59!VERO !F:c38c5c88-d25a-4c03-961f-96023b78359e!vive sola.!W:1s!\nNo tiene amigos y\nraramente sale \nde su cuarto.",
               "x": 1,
               "y": 4,
               "location": "background"

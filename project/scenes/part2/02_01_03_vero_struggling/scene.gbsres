@@ -1,0 +1,85 @@
+{
+  "_resourceType": "scene",
+  "id": "68b8a661-8aaf-46b5-bcdf-ba72889290e1",
+  "_index": 39,
+  "name": "part2/02_01_03_Vero Struggling",
+  "backgroundId": "4cb61947-481d-44e2-ac5a-b79d87748687",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "367c5da6-894f-4142-9d10-917533d9a517",
+    "dmg",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "367c5da6-894f-4142-9d10-917533d9a517"
+  ],
+  "spritePaletteIds": [
+    "367c5da6-894f-4142-9d10-917533d9a517"
+  ],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 1976,
+  "y": 1064,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "ace38a04-a8aa-4e28-9908-0d578e828ebb"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
+        "__collapse": true
+      },
+      "id": "56e92934-a13a-45cf-b165-fe4ce5d8b8bd"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "9c464f1e-d275-4b90-b446-8457789cfdf7"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "6cdba406-8f84-4224-9c8f-82c873ad008b",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 1,
+        "__collapse": false
+      },
+      "id": "a447f8c1-7bc4-41c8-8023-d6cce41d7ef4"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true,
+  "labelColor": "green"
+}

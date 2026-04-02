@@ -63,7 +63,7 @@
           "value": 0
         },
         "direction": "",
-        "fadeSpeed": "2",
+        "fadeSpeed": 4,
         "__collapse": false
       },
       "id": "044965a0-6be9-4aeb-a148-535731766219"

@@ -25,7 +25,7 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_17",
-  "x": 672,
+  "x": 344,
   "y": 1640,
   "script": [
     {
@@ -50,7 +50,7 @@
     {
       "command": "EVENT_CAMERA_SHAKE",
       "args": {
-        "time": 10,
+        "time": 8,
         "frames": 30,
         "shakeDirection": "diagonal",
         "magnitude": {

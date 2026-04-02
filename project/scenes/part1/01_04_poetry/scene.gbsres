@@ -37,6 +37,20 @@
       "id": "1fe674f8-ffe5-4f05-bad4-f087c6d7f0c5"
     },
     {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 2
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "aeb68107-77ac-4bef-a365-8a4d8e6f8ced"
+    },
+    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
@@ -67,7 +81,7 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!She spends her \ndays listening to\nmusic and writing\npoetry",
+              "text": "!S3!!F:c38c5c88-d25a-4c03-961f-96023b78359e!She spends her \ndays listening to\nmusic and writing\npoetry",
               "x": 1,
               "y": 4,
               "location": "background"
@@ -79,7 +93,7 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Ella pasa sus días\nescuchando música\ny escribiendo\npoesía",
+              "text": "!S3!!F:c38c5c88-d25a-4c03-961f-96023b78359e!Ella pasa sus días\nescuchando música\ny escribiendo\npoesía",
               "x": 1,
               "y": 4,
               "location": "background"

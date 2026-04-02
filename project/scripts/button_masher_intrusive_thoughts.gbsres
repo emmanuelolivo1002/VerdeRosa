@@ -1,0 +1,102 @@
+{
+  "_resourceType": "script",
+  "id": "0d330ee7-421e-46d0-9578-aae200126162",
+  "name": "Button Masher Intrusive thoughts",
+  "description": "this increases the value of the global var mash_count and checks against mash_goal to then change the scene to the 02_03",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_2",
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "8",
+              "value": {
+                "type": "add",
+                "valueA": {
+                  "type": "variable",
+                  "value": "8"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapse": false
+            },
+            "id": "1d0a5206-ba10-4db8-b793-72308171923f"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "8"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "7"
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": false,
+              "__disableElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.3
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "4f41076b-13b4-48d4-a0a6-29dfcf0c581f"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "b6df2eca-443d-488f-8c5f-45cb91f41224",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "3babe897-fc40-4809-aa5c-cc677079f25e"
+                }
+              ],
+              "false": []
+            },
+            "id": "e7d3b14a-84ef-4957-bc68-f4c7b719aa7d"
+          }
+        ]
+      },
+      "id": "f25337b5-d9cf-4aca-a5a5-dc25f88518e5"
+    }
+  ]
+}

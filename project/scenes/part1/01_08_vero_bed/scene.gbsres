@@ -47,6 +47,28 @@
       "id": "2e3664c4-9eba-441e-bad8-fc0f5c0b0eed"
     },
     {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "c58e2e42-f1e5-4a62-8604-cabac5c6fd2a"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "c1b1a6d6-cc8e-49a5-b140-f4b15a51f0ab",
+        "speed": 7
+      },
+      "id": "da0bce4e-c9ed-4d43-9cae-805909cf109e"
+    },
+    {
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "c1b1a6d6-cc8e-49a5-b140-f4b15a51f0ab",
@@ -87,6 +109,37 @@
         ]
       },
       "id": "e0cc8e94-0ff1-4804-8309-b8e5101fe7dc"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 4
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "90a65d8f-52c3-4c4d-bbfe-501c4f5f9667"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "7d0a37c0-dced-454c-b0ed-4803fb3069ce",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 2
+      },
+      "id": "949c9cce-0a52-4590-94c7-550b49d834b6"
     }
   ],
   "playerHit1Script": [],

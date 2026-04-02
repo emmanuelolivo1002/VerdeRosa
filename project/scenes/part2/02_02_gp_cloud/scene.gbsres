@@ -17,8 +17,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_16",
-  "x": 480,
-  "y": 1640,
+  "x": 128,
+  "y": 1648,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -126,7 +126,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -157,7 +157,8 @@
                       "value": 0
                     },
                     "direction": "",
-                    "fadeSpeed": "2"
+                    "fadeSpeed": "2",
+                    "__collapse": false
                   },
                   "id": "2d403c84-356d-405c-8312-288c47ba7793"
                 }
@@ -174,6 +175,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
-  "labelColor": "green"
+  "autoFadeEventCollapse": false,
+  "labelColor": "red"
 }

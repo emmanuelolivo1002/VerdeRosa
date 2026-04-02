@@ -1,0 +1,95 @@
+{
+  "_resourceType": "scene",
+  "id": "8d67c8e4-b4e8-4e6c-bd38-91989e171c5a",
+  "_index": 44,
+  "name": "part2/02_01_08_Loop-3",
+  "backgroundId": "da46b91f-cd0c-43bc-aebf-54177ccd77e1",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "367c5da6-894f-4142-9d10-917533d9a517",
+    "dmg",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "367c5da6-894f-4142-9d10-917533d9a517"
+  ],
+  "spritePaletteIds": [
+    "367c5da6-894f-4142-9d10-917533d9a517"
+  ],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_45",
+  "x": 2152,
+  "y": 1272,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "c970a78c-69e3-4ca0-a67c-ace9090f94ca"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0d330ee7-421e-46d0-9578-aae200126162",
+        "__collapse": true
+      },
+      "id": "c5db2815-54ad-4ceb-93e2-9a218c2b34b7"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0451983f-f2db-4613-a748-ef500ef67b9c",
+        "__collapse": true
+      },
+      "id": "3a89071f-dccf-406d-a14a-c3c5bcb93a8f"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.2
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": false
+      },
+      "id": "348a1c28-4768-44cb-a774-04b9a616c1ce"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "be312a4f-767a-47a0-99ef-6993905daf4f",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "direction": "",
+        "fadeSpeed": 0,
+        "__collapse": true
+      },
+      "id": "dedca68d-3de2-47c7-b87a-aa18599010e9"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true,
+  "labelColor": "green",
+  "playerSpriteSheetId": "cb503cfb-a619-44d7-ae68-8e03f1642476"
+}

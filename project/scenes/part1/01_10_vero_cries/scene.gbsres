@@ -49,9 +49,31 @@
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "actorId": "c4aaefa4-ef5a-426c-8f19-57f3d14531a0"
+        "actorId": "c4aaefa4-ef5a-426c-8f19-57f3d14531a0",
+        "time": {
+          "type": "number",
+          "value": 4
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
       },
       "id": "17f13529-c7b8-4755-9084-536614aadfd1"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 2
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "95c12228-98a5-4d9e-9f28-5141123bcea4"
     },
     {
       "command": "EVENT_IF",
@@ -76,7 +98,7 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!She cries herself \nto sleep every \nnight",
+              "text": "!S3!!F:c38c5c88-d25a-4c03-961f-96023b78359e!She cries herself \nto sleep every \nnight",
               "x": 1,
               "y": 4,
               "location": "background"
@@ -88,24 +110,12 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Todas las noches\nllora hasta que se\nqueda dormida",
+              "text": "!S3!!F:c38c5c88-d25a-4c03-961f-96023b78359e!Todas las noches\nllora hasta que se\nqueda dormida",
               "x": 1,
               "y": 4,
               "location": "background"
             },
             "id": "74cea7ac-fa1b-440e-90b6-51b299257b83"
-          },
-          {
-            "command": "EVENT_TEXT_DRAW",
-            "args": {
-              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Esta es la \nhistoria de !F:71e95cc4-4a41-4d79-b548-10713669ecc9!VERO \n!F:c38c5c88-d25a-4c03-961f-96023b78359e!y de cómo llegó\na conocer el lado \n!F:71e95cc4-4a41-4d79-b548-10713669ecc9!ROSA !F:c38c5c88-d25a-4c03-961f-96023b78359e!de la vida",
-              "x": 1,
-              "y": 4,
-              "location": "background",
-              "__collapse": true,
-              "__comment": true
-            },
-            "id": "2afa7362-94ee-4c7f-bd4b-04c59b951ecf"
           }
         ]
       },
@@ -116,7 +126,7 @@
       "args": {
         "time": {
           "type": "number",
-          "value": 4
+          "value": 1
         },
         "frames": {
           "type": "number",
@@ -175,6 +185,37 @@
         ]
       },
       "id": "6bfd36e5-97cf-47c5-8711-f23a998f825f"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 4
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "19916ddc-95ee-4a40-b168-56f7a9ae222b"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "651263bc-fe7d-4489-acad-b1099d5753a8",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "cce6a836-625b-4f35-9777-cb736702839e"
     }
   ],
   "playerHit1Script": [],

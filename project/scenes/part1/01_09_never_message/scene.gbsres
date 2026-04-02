@@ -39,6 +39,20 @@
       "id": "12ed6ba0-56b1-4131-9bf7-83bf56e04a33"
     },
     {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 2
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "258aa493-dee1-4fea-bcb6-048428f78d7a"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -61,7 +75,7 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!She has never \nmessaged anybody",
+              "text": "!S3!!F:c38c5c88-d25a-4c03-961f-96023b78359e!She has never \nmessaged anybody",
               "x": 1,
               "y": 4,
               "location": "background"
@@ -73,7 +87,7 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Nunca le ha \nmandado un \nmensaje a nadie",
+              "text": "!S3!!F:c38c5c88-d25a-4c03-961f-96023b78359e!Nunca le ha \nmandado un \nmensaje a nadie",
               "x": 1,
               "y": 4,
               "location": "background"
@@ -83,20 +97,6 @@
         ]
       },
       "id": "8e59cb3d-61d6-4115-83ef-a22345a9e8a2"
-    },
-    {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": {
-          "type": "number",
-          "value": 2
-        },
-        "frames": {
-          "type": "number",
-          "value": 1
-        }
-      },
-      "id": "8d045f30-d5c2-4f69-8187-96e3b2d03910"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -130,6 +130,37 @@
         ]
       },
       "id": "69ac561e-3910-4368-8ee8-6bcde1c45042"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 4
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "8d045f30-d5c2-4f69-8187-96e3b2d03910"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "a38ef5bd-59e9-4c5e-8d97-b56cc7f2c452",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "b74f6ec7-cbd4-4750-bd90-05786dc16d03"
     }
   ],
   "playerHit1Script": [],

@@ -100,6 +100,21 @@
       "id": "c7aa30d7-af2b-45f4-b1b4-3ebac1f84ccf__L0",
       "name": "Language",
       "symbol": "var_language_2"
+    },
+    {
+      "id": "6",
+      "name": "dark-cloud-loops",
+      "symbol": "var_dark_cloud_loops"
+    },
+    {
+      "id": "7",
+      "name": "mash_goal",
+      "symbol": "var_mash_goal_0"
+    },
+    {
+      "id": "8",
+      "name": "mash_count",
+      "symbol": "var_mash_count_0"
     }
   ],
   "constants": []

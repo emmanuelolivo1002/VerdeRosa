@@ -6,8 +6,8 @@
   "name": "part2/02_06_Xolotl_body",
   "symbol": "scene_20",
   "labelColor": "green",
-  "x": 1288,
-  "y": 1640,
+  "x": 800,
+  "y": 1632,
   "width": 20,
   "height": 18,
   "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
@@ -83,8 +83,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Hi! \nMy name is Xolotl",
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¿Cómo te llamas\ntú?"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Hi! \nMy name is !F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!Xolotl",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!What's your name?"
               ],
               "__section": "text",
               "avatarId": "",
@@ -110,9 +110,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "...Vero"
+                "!W:1s!!S5!...Vero"
               ],
-              "__section": "layout",
+              "__section": "text",
               "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
               "minHeight": 4,
               "maxHeight": 7,
@@ -155,7 +155,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "604cfa25-d040-4643-bb0b-2453ef9f35b2"
           },
@@ -163,7 +163,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Are you a \ndemon?"
+                "!S4!Are you a \ndemon?"
               ],
               "__section": "text",
               "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
@@ -208,7 +208,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "d86df7ee-1318-4ac2-a71b-6f18cdb805dc"
           },
@@ -217,7 +217,7 @@
             "args": {
               "text": [
                 "Where am I?",
-                "Am I dead?"
+                "!S4!Am I dead?"
               ],
               "__section": "text",
               "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
@@ -264,7 +264,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "be213044-7fa1-44bd-a8cb-0beebe0022ef"
           },
@@ -290,7 +290,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "b86d4c94-44e3-4540-a8a9-3c02ed26649c"
           },
@@ -317,7 +317,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "62b90d63-8048-4d97-a05e-bbcbd51555e3"
           },
@@ -370,7 +370,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "058ad6d2-bb5d-4e3d-bb85-ae7cfbbb8edc"
           }
@@ -380,7 +380,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡holis! \nMe llamo Xolotl",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡holis! \nMe llamo !F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!Xolotl",
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¿Cómo te llamas\ntú?"
               ],
               "__section": "text",
@@ -407,9 +407,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "...Vero"
+                "!W:1s!!S5!...Vero"
               ],
-              "__section": "layout",
+              "__section": "text",
               "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
               "minHeight": 4,
               "maxHeight": 7,
@@ -460,9 +460,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                " ¿Eres un \n demonio?"
+                " !S4!¿Eres un \n demonio?"
               ],
-              "__section": "layout",
+              "__section": "text",
               "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
               "minHeight": 4,
               "maxHeight": 7,
@@ -514,7 +514,7 @@
             "args": {
               "text": [
                 " ¿Dónde estoy?",
-                " ¿Estoy muerta?"
+                " !S4!¿Estoy muerta?"
               ],
               "__section": "text",
               "avatarId": "9d62e20b-975b-4333-9705-796b9f5aa239",
@@ -707,6 +707,37 @@
         ]
       },
       "id": "a25e93cb-cc52-425d-90aa-6673ec02f8e1"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 4
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "510d6770-2df5-46a8-8b7f-e3a008f60ce8"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "99e69793-fa7d-4ab2-ae07-0ca36d806cab",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "d12262d3-a386-4cc6-b7d8-ed15064d13fa"
     }
   ],
   "playerHit1Script": [],
