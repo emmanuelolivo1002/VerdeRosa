@@ -80,7 +80,7 @@
                 "value": 0
               },
               "direction": "",
-              "fadeSpeed": "2"
+              "fadeSpeed": 2
             },
             "id": "e0be2adb-2f81-4ac8-a431-9f99c0e75394"
           }

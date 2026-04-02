@@ -1,35 +1,33 @@
 {
   "_resourceType": "scene",
   "id": "f1c1df73-3680-4c3d-b2ac-63669636db60",
-  "_index": 12,
-  "name": "part2/02_01_Vero Sleeping",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "_index": 11,
+  "name": "part2/02_01_02_Vero Struggling",
+  "backgroundId": "87327a88-5cc1-41a9-b6a2-0b902464cc83",
   "tilesetId": "",
   "width": 20,
-  "height": 18,
+  "height": 26,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [
+    "367c5da6-894f-4142-9d10-917533d9a517",
     "dmg",
-    "dmg"
+    null,
+    null,
+    null,
+    null,
+    null,
+    "367c5da6-894f-4142-9d10-917533d9a517"
   ],
-  "spritePaletteIds": [],
-  "collisions": "",
+  "spritePaletteIds": [
+    "367c5da6-894f-4142-9d10-917533d9a517"
+  ],
+  "collisions": "00208+",
   "autoFadeSpeed": 1,
   "symbol": "scene_15",
   "x": 280,
   "y": 1640,
   "script": [
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "Vero Sleeping\nDark Cloud above",
-        "x": 1,
-        "y": 7,
-        "location": "background"
-      },
-      "id": "9e5fe392-1961-4f03-8b16-b67a244a1748"
-    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {

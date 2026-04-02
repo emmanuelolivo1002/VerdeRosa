@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "87327a88-5cc1-41a9-b6a2-0b902464cc83",
+  "name": "Vero-Bed-Cloud",
+  "symbol": "bg_vero_bed_cloud",
+  "tileColors": "00208+",
+  "filename": "Vero-Bed-Cloud.png",
+  "width": 20,
+  "height": 26,
+  "imageWidth": 160,
+  "imageHeight": 208
+}
