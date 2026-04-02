@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "695e64db-e6b8-41c4-8c05-3bc2e50a2f89",
-  "_index": 30,
+  "_index": 29,
   "name": "part4/04_04_Side_Table",
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
@@ -17,8 +17,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_36",
-  "x": 832,
-  "y": 2552,
+  "x": 824,
+  "y": 3040,
   "script": [
     {
       "command": "EVENT_TEXT_DRAW",

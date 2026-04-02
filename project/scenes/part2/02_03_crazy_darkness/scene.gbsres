@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "b6df2eca-443d-488f-8c5f-45cb91f41224",
-  "_index": 14,
+  "_index": 13,
   "name": "part2/02_03_Crazy Darkness",
   "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
   "tilesetId": "",
@@ -11,9 +11,17 @@
   "colorModeOverride": "none",
   "paletteIds": [
     "367c5da6-894f-4142-9d10-917533d9a517",
-    "dmg"
+    "dmg",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "367c5da6-894f-4142-9d10-917533d9a517"
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "aeb46c61-5f70-43fa-9b00-ce502ea5db3d"
+  ],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_17",
@@ -23,9 +31,9 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "Vero Sleeping\nDark Cloud above",
-        "x": 1,
-        "y": 7,
+        "text": "!F:f0c5e66d-06d3-4beb-b3ec-c02035cf8858!Vero Sleepi grtr gjjdhhjdj  gj\nngartgfdergrtr gjjdhhjdj  gj\nDargafdfdg. sgfaddgfgaewrregrtr gjjdhhjdj  gjgrtr  gj\n shsgh     fhgsh  ",
+        "x": 0,
+        "y": 0,
         "location": "background",
         "__collapse": false
       },
@@ -47,7 +55,7 @@
         "shakeDirection": "diagonal",
         "magnitude": {
           "type": "number",
-          "value": 50
+          "value": 255
         }
       },
       "id": "9720c913-6942-4f39-a000-2dc59b099ea6"

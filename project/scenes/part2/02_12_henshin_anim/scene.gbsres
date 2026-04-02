@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "114f6c24-0d8e-498b-8432-278cade85e52",
-  "_index": 22,
+  "_index": 21,
   "name": "part2/02_12_HENSHIN_ANIM",
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
@@ -17,8 +17,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_27",
-  "x": 752,
-  "y": 1864,
+  "x": 696,
+  "y": 1912,
   "script": [
     {
       "command": "EVENT_TEXT_DRAW",

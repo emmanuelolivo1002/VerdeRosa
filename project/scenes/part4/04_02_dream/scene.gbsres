@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "2f06b990-4c29-42d6-8464-a2f71de30fff",
-  "_index": 28,
+  "_index": 27,
   "name": "part4/04_02_Dream",
   "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
   "tilesetId": "",
@@ -17,8 +17,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_34",
-  "x": 448,
-  "y": 2552,
+  "x": 440,
+  "y": 3040,
   "script": [
     {
       "command": "EVENT_TEXT_DRAW",

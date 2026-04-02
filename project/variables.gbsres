@@ -95,6 +95,11 @@
       "id": "78d31eda-80bb-49a3-b95c-ebf81f0ff957__L3",
       "name": "displayed_frame",
       "symbol": "var_displayed_frame"
+    },
+    {
+      "id": "c7aa30d7-af2b-45f4-b1b4-3ebac1f84ccf__L0",
+      "name": "Language",
+      "symbol": "var_language_2"
     }
   ],
   "constants": []

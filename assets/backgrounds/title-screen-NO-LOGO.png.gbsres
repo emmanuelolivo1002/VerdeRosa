@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "6e987ab3-ba3a-4711-9c1e-a94173d371fb",
+  "name": "title-screen-NO-LOGO",
+  "symbol": "bg_title_screen_no_logo",
+  "tileColors": "",
+  "filename": "title-screen-NO-LOGO.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

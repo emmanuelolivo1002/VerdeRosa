@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "74a83fc6-cf87-4dda-952d-b34c8ede157e",
-  "_index": 23,
+  "_index": 22,
   "name": "part3/03_01_Battle",
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
@@ -17,8 +17,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_28",
-  "x": 264,
-  "y": 2208,
+  "x": 256,
+  "y": 2696,
   "script": [
     {
       "command": "EVENT_TEXT_DRAW",
