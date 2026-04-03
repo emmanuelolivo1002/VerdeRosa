@@ -80,18 +80,6 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_TEXT_DRAW",
-            "args": {
-              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Looks like you\nneed some help",
-              "x": 1,
-              "y": 4,
-              "location": "background",
-              "__collapse": false,
-              "__comment": false
-            },
-            "id": "ac50bede-ca34-43bb-bfed-1a58e876126d"
-          },
-          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -117,6 +105,33 @@
               "__comment": true
             },
             "id": "673d5d7c-e260-4209-8263-4fa22a22a115"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Looks like you\nneed some help"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false,
+              "__comment": false
+            },
+            "id": "18caf4d2-f1d5-4ce9-910e-6107e5159946"
           }
         ],
         "false": [
@@ -126,7 +141,7 @@
               "text": [
                 "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Parece que \nnecesitas ayuda!"
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,

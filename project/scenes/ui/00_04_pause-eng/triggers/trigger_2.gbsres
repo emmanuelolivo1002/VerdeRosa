@@ -121,14 +121,14 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_SCENE_RESET_STATE",
+            "command": "EVENT_SCENE_PUSH_STATE",
             "args": {},
-            "id": "d486c60c-19fe-44e6-8665-13ad01627200"
+            "id": "b09f516c-2136-4716-8af4-ceac556acc41"
           },
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "80fb797c-59ba-428a-b987-2156f749e9f5",
+              "sceneId": "1c8e4ebc-eb4e-4939-96b6-0486da97bc7b",
               "x": {
                 "type": "number",
                 "value": 0

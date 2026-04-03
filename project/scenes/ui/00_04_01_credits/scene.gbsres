@@ -3,14 +3,18 @@
   "id": "1c8e4ebc-eb4e-4939-96b6-0486da97bc7b",
   "_index": 31,
   "name": "ui/00_04_01_Credits",
-  "backgroundId": "d964e783-262f-4a22-b996-167c471c11bb",
+  "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "LOGO",
+  "type": "TOPDOWN",
   "colorModeOverride": "none",
-  "paletteIds": [],
-  "spritePaletteIds": [],
+  "paletteIds": [
+    "367c5da6-894f-4142-9d10-917533d9a517"
+  ],
+  "spritePaletteIds": [
+    "367c5da6-894f-4142-9d10-917533d9a517"
+  ],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_0",
@@ -23,6 +27,76 @@
         "actorId": "$self$"
       },
       "id": "b3ac4355-1f03-4210-8f56-f804641466bb"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false,
+        "__label": "Display"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Story, Art and Programming by\n\n!F:2bbe3caf-3218-4df8-9161-94cdc7088b59!EMMANUEL CON DOS\nEMMES",
+              "x": 1,
+              "y": 4,
+              "location": "background"
+            },
+            "id": "c805ea2f-33f3-461b-8c94-793085fb064e"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "!F:c38c5c88-d25a-4c03-961f-96023b78359e!Historia, Arte y \nProgramación \nhechos por\n\n!F:2bbe3caf-3218-4df8-9161-94cdc7088b59!EMMANUEL CON DOS\nEMMES",
+              "x": 1,
+              "y": 4,
+              "location": "background"
+            },
+            "id": "192217a0-5b03-435d-a944-2694e28773b0"
+          }
+        ]
+      },
+      "id": "7fc16a4f-3d58-48f1-9118-f2a3821a9339"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "a",
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": "2"
+            },
+            "id": "a16b0df3-61f1-4a4f-8c68-ea0beff6dfe2"
+          }
+        ]
+      },
+      "id": "0e78dfa3-fd53-4548-8f4e-54971d492c75"
     }
   ],
   "playerHit1Script": [],

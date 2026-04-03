@@ -21,7 +21,9 @@
         "true": [
           {
             "command": "EVENT_SCENE_PUSH_STATE",
-            "args": {},
+            "args": {
+              "__collapse": true
+            },
             "id": "6aeaaf12-8494-48e8-8936-a92dccf83aa4"
           },
           {

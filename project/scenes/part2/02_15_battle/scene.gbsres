@@ -93,7 +93,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                " Woah!"
+                " Woah!",
+                " It feels \n !F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!AMAZING!"
               ],
               "__section": "text",
               "avatarId": "a55872f1-7f9f-46ec-bc1e-378cdcd4cf34",
@@ -161,7 +162,7 @@
             "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
             "args": {
               "text": [
-                "!S4!!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!To be \ncontinued..."
+                "!S4!!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!To be \ncontinued"
               ],
               "__scriptTabs": "text",
               "boxHeight": 4,
@@ -214,13 +215,14 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                " ¡Orale!"
+                "¡Orale!",
+                "¡Se siente \n!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!INCREíBLE!"
               ],
               "__section": "text",
               "avatarId": "a55872f1-7f9f-46ec-bc1e-378cdcd4cf34",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
               "textHeight": 5,
               "position": "bottom",
