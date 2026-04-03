@@ -3,10 +3,10 @@
   "id": "ff26e8d8-6f02-4485-88e8-745c517667bb",
   "name": "Vero-transformed",
   "symbol": "bg_vero_transformed",
-  "tileColors": "",
+  "tileColors": "002a8+",
   "filename": "Vero-transformed.png",
   "width": 20,
-  "height": 36,
+  "height": 34,
   "imageWidth": 160,
-  "imageHeight": 288
+  "imageHeight": 272
 }

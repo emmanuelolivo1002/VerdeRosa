@@ -67,6 +67,60 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!You did it!"
+              ],
+              "__section": "text",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "490abc11-8297-42bd-8dab-0cad951e7437"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Woah!"
+              ],
+              "__section": "text",
+              "avatarId": "a55872f1-7f9f-46ec-bc1e-378cdcd4cf34",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "8216af19-b549-496f-9f7a-76088140568f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Look at you,\nyou look so \nhappy!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!This is your \n!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!true self",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!I'm so proud to\nsee you!",
                 "!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!Now it's time \nto battle!"
               ],
               "__section": "text",
@@ -87,7 +141,7 @@
               "closeDelayFrames": 30,
               "__collapse": false
             },
-            "id": "aec6ff4a-d06e-41b2-89ac-19a27ee2fd9f"
+            "id": "65b9cecf-dd1f-4c15-8cf8-567e0a5fc1d7"
           },
           {
             "command": "EVENT_WAIT",
@@ -101,7 +155,7 @@
                 "value": 1
               }
             },
-            "id": "4f3d1e91-f4c0-4c87-a107-ad2d5cc87a9e"
+            "id": "816fbd14-4810-40f7-8e0c-3f08b1595642"
           },
           {
             "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
@@ -134,9 +188,64 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Lo lograste!"
+              ],
+              "__section": "text",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "9007c7a6-4c1e-47f5-88f2-d19c80e8e2a0"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " ¡Orale!"
+              ],
+              "__section": "text",
+              "avatarId": "a55872f1-7f9f-46ec-bc1e-378cdcd4cf34",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "4efdb599-e5c8-4159-bd46-b8e8a0bc39e6"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Mirate, te ves\ntan feliz!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Este es tu\n!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!verdadero yo!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Estoy \norgulloso de \nverte así!",
                 "!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!¡Es hora de \nluchar!"
               ],
-              "__section": "layout",
+              "__section": "text",
               "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
               "minHeight": 4,
               "maxHeight": 7,
@@ -154,7 +263,7 @@
               "closeDelayFrames": 30,
               "__collapse": false
             },
-            "id": "b9a32dca-b07d-4dab-8e1c-8891c0c6d812"
+            "id": "9dda21eb-aff0-4ea7-8491-d2cd17db4849"
           },
           {
             "command": "EVENT_WAIT",
@@ -168,7 +277,7 @@
                 "value": 1
               }
             },
-            "id": "816fbd14-4810-40f7-8e0c-3f08b1595642"
+            "id": "4f3d1e91-f4c0-4c87-a107-ad2d5cc87a9e"
           },
           {
             "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
@@ -194,6 +303,84 @@
               "__label": "Continuara (ESP)"
             },
             "id": "f1a9d6e7-5b7e-495a-b813-61bb82f86521"
+          }
+        ]
+      },
+      "id": "53a8f313-4e10-494f-af5d-021c3a4d9fc8"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true,
+        "__comment": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!Now it's time \nto battle!"
+              ],
+              "__section": "text",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "aec6ff4a-d06e-41b2-89ac-19a27ee2fd9f"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!¡Es hora de \nluchar!"
+              ],
+              "__section": "text",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "b9a32dca-b07d-4dab-8e1c-8891c0c6d812"
           }
         ]
       },
