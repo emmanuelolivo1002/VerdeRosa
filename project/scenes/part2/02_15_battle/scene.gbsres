@@ -94,7 +94,7 @@
             "args": {
               "time": {
                 "type": "number",
-                "value": 0.5
+                "value": 2
               },
               "frames": {
                 "type": "number",
@@ -107,9 +107,9 @@
             "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
             "args": {
               "text": [
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!To be \ncontinued..."
+                "!S4!!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!To be \ncontinued..."
               ],
-              "__scriptTabs": "layout",
+              "__scriptTabs": "text",
               "boxHeight": 4,
               "boxWidth": 11,
               "boxX": 7,
@@ -161,7 +161,7 @@
             "args": {
               "time": {
                 "type": "number",
-                "value": 0.5
+                "value": 2
               },
               "frames": {
                 "type": "number",
@@ -174,9 +174,9 @@
             "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
             "args": {
               "text": [
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!continuará..."
+                "!S4!!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!continuará..."
               ],
-              "__scriptTabs": "layout",
+              "__scriptTabs": "text",
               "boxHeight": 3,
               "boxWidth": 15,
               "boxX": 4,

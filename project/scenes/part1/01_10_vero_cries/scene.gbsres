@@ -98,7 +98,7 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "!S3!!F:c38c5c88-d25a-4c03-961f-96023b78359e!She cries herself \nto sleep every \nnight",
+              "text": "!S3!!F:c38c5c88-d25a-4c03-961f-96023b78359e!Tonight she cried\nherself to sleep",
               "x": 1,
               "y": 4,
               "location": "background"
@@ -110,7 +110,7 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "!S3!!F:c38c5c88-d25a-4c03-961f-96023b78359e!Todas las noches\nllora hasta que se\nqueda dormida",
+              "text": "!S3!!F:c38c5c88-d25a-4c03-961f-96023b78359e!Esta noche lloró\nhasta quedarse\ndormida",
               "x": 1,
               "y": 4,
               "location": "background"

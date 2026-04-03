@@ -275,7 +275,7 @@
       "args": {
         "time": {
           "type": "number",
-          "value": 3
+          "value": 2
         },
         "frames": {
           "type": "number",

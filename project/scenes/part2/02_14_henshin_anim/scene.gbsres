@@ -11,7 +11,13 @@
   "colorModeOverride": "none",
   "paletteIds": [
     "2f2bc91a-e64c-41d6-95ba-4b671b1e7c20",
-    "dmg"
+    "dmg",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "57992d06-feda-4332-b993-396e601f9bd2"
   ],
   "spritePaletteIds": [],
   "collisions": "",
@@ -20,6 +26,21 @@
   "x": 1464,
   "y": 1928,
   "script": [
+    {
+      "command": "EVENT_CAMERA_SET_POSITION",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 18
+        },
+        "__collapse": true
+      },
+      "id": "1cd6389c-f3ee-4191-96e3-8c04729eb85b"
+    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
@@ -35,6 +56,21 @@
         "__collapse": true
       },
       "id": "53366878-14a2-4121-bd7f-647985b04501"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "speed": 1
+      },
+      "id": "e078745a-be02-465b-937d-0c8f0225ad62"
     },
     {
       "command": "EVENT_IF",
@@ -59,8 +95,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!You did it!",
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!This is your \n!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!true self!"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!You did it!"
               ],
               "__section": "text",
               "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
@@ -106,6 +141,34 @@
               "closeDelayFrames": 30
             },
             "id": "f3e92602-d380-46ce-b4e5-390e2de49d1a"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!Look at you,\nyou look so \nhappy!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!This is your \n!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!true self",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!I'm so proud to\nsee you!"
+              ],
+              "__section": "text",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "3793313d-128f-46cb-b710-e32741afbc57"
           }
         ],
         "false": [
@@ -113,14 +176,13 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Lo lograste!",
-                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Este es tu\nverdadero yo!"
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Lo lograste!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
               "textHeight": 5,
               "position": "bottom",
@@ -161,6 +223,34 @@
               "__collapse": false
             },
             "id": "4c0cd77b-0489-44f0-a915-667b077b572c"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Mirate, te ves\ntan feliz!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Este es tu\n!F:1b486c36-f724-4b74-9b2e-e0f1e9321da3!verdadero yo!",
+                "!F:0bf3fa9c-c924-4f50-8fdf-52ec75fc0c89!¡Estoy \norgulloso de \nverte así!"
+              ],
+              "__section": "text",
+              "avatarId": "46613d9a-8ba8-4a93-9569-52d60e990798",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "fa674b8d-3be6-4d63-b049-f504167aee8e"
           }
         ]
       },
@@ -174,7 +264,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
