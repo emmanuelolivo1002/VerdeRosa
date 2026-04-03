@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "6b4465c1-fb70-4eca-96fd-83ff4a5d5a06",
   "_index": 44,
-  "name": "part2/02_14_Battle",
+  "name": "part2/02_15_Battle",
   "backgroundId": "f0a5236c-5fd8-46bb-aa9c-d2c9efae84fa",
   "tilesetId": "",
   "width": 20,
@@ -25,7 +25,7 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_23",
-  "x": 1600,
+  "x": 1704,
   "y": 1936,
   "script": [
     {
