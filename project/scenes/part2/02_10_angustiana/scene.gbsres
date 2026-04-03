@@ -480,7 +480,7 @@
       "args": {
         "time": {
           "type": "number",
-          "value": 4
+          "value": 3
         },
         "frames": {
           "type": "number",

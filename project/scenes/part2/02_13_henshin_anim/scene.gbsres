@@ -3,22 +3,22 @@
   "id": "114f6c24-0d8e-498b-8432-278cade85e52",
   "_index": 20,
   "name": "part2/02_13_HENSHIN_ANIM",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "c9110258-82cd-4683-8a3b-dd291cb79d24",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [
-    "dmg",
+    "2f2bc91a-e64c-41d6-95ba-4b671b1e7c20",
     "dmg"
   ],
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_27",
-  "x": 1336,
-  "y": 1928,
+  "x": 1280,
+  "y": 1936,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -51,7 +51,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [

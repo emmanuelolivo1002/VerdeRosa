@@ -269,6 +269,37 @@
         ]
       },
       "id": "c933eee0-56f9-44a8-8a81-abcf302988ff"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 3
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "0e2ea1b6-fafa-4619-b31c-1826f4df42f9"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "a3cb50ad-67d0-437e-94bd-4c23b7bb617b",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "fd01d288-ca66-403c-927c-4f021c6c617c"
     }
   ],
   "playerHit1Script": [],
