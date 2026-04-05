@@ -2,31 +2,32 @@
   "_resourceType": "scene",
   "id": "6cdba406-8f84-4224-9c8f-82c873ad008b",
   "_index": 39,
+  "type": "TOPDOWN",
   "name": "part2/02_01_04_Vero Struggling",
-  "backgroundId": "a5dd57f5-873b-4213-9818-1a180b053c1e",
-  "tilesetId": "",
+  "symbol": "scene_41",
+  "labelColor": "green",
+  "x": 2184,
+  "y": 1064,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "a5dd57f5-873b-4213-9818-1a180b053c1e",
+  "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
     "367c5da6-894f-4142-9d10-917533d9a517",
     "dmg",
-    null,
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
+    "",
     "367c5da6-894f-4142-9d10-917533d9a517"
   ],
   "spritePaletteIds": [
     "367c5da6-894f-4142-9d10-917533d9a517"
   ],
-  "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_41",
-  "x": 2184,
-  "y": 1064,
+  "autoFadeEventCollapse": true,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -80,6 +81,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
-  "labelColor": "green"
+  "collisions": "00168+"
 }

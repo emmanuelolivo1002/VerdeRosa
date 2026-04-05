@@ -2,31 +2,32 @@
   "_resourceType": "scene",
   "id": "b03e5b78-151f-420d-be6f-b92739b8a485",
   "_index": 17,
+  "type": "TOPDOWN",
   "name": "part2/02_10_Angustiana",
-  "backgroundId": "38cafe9b-c6a8-4058-88ef-61169c34e948",
-  "tilesetId": "",
+  "symbol": "scene_24",
+  "labelColor": "green",
+  "x": 640,
+  "y": 1936,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "38cafe9b-c6a8-4058-88ef-61169c34e948",
+  "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
     "2f2bc91a-e64c-41d6-95ba-4b671b1e7c20",
     "dmg",
-    null,
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
+    "",
     "57992d06-feda-4332-b993-396e601f9bd2"
   ],
   "spritePaletteIds": [
     "default-bg-4"
   ],
-  "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_24",
-  "x": 640,
-  "y": 1936,
+  "autoFadeEventCollapse": true,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -510,6 +511,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
-  "labelColor": "green"
+  "collisions": ""
 }

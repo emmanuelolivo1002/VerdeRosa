@@ -2,31 +2,32 @@
   "_resourceType": "scene",
   "id": "32ffc61a-5977-4f91-bc7a-efbead20fd30",
   "_index": 42,
+  "type": "TOPDOWN",
   "name": "part2/02_01_07_Loop-2",
-  "backgroundId": "bce2f64d-270b-4871-8c2c-7a15515dc2ca",
-  "tilesetId": "",
+  "symbol": "scene_44",
+  "labelColor": "green",
+  "x": 1968,
+  "y": 1272,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "bce2f64d-270b-4871-8c2c-7a15515dc2ca",
+  "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
     "367c5da6-894f-4142-9d10-917533d9a517",
     "dmg",
-    null,
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
+    "",
     "367c5da6-894f-4142-9d10-917533d9a517"
   ],
   "spritePaletteIds": [
     "367c5da6-894f-4142-9d10-917533d9a517"
   ],
-  "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_44",
-  "x": 1968,
-  "y": 1272,
+  "autoFadeEventCollapse": true,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -81,6 +82,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
-  "labelColor": "green"
+  "collisions": "00168+"
 }

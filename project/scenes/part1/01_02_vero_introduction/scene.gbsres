@@ -2,31 +2,32 @@
   "_resourceType": "scene",
   "id": "a9f122a7-3fac-408f-b1b5-0fa5e21023db",
   "_index": 5,
+  "type": "TOPDOWN",
   "name": "part1/01_02_Vero Introduction",
-  "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
-  "tilesetId": "",
+  "symbol": "scene_7",
+  "labelColor": "blue",
+  "x": 480,
+  "y": 648,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
+  "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
     "367c5da6-894f-4142-9d10-917533d9a517",
     "dmg",
-    null,
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
+    "",
     "367c5da6-894f-4142-9d10-917533d9a517"
   ],
   "spritePaletteIds": [
     "367c5da6-894f-4142-9d10-917533d9a517"
   ],
-  "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_7",
-  "x": 480,
-  "y": 648,
+  "autoFadeEventCollapse": false,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -173,6 +174,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": false,
-  "labelColor": "blue"
+  "collisions": ""
 }

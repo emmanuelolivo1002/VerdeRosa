@@ -2,31 +2,32 @@
   "_resourceType": "scene",
   "id": "651263bc-fe7d-4489-acad-b1099d5753a8",
   "_index": 36,
+  "type": "TOPDOWN",
   "name": "part2/02_01_01_Vero Sleeping",
-  "backgroundId": "f9e82d16-54ad-480a-a846-e06a9dbbaf67",
-  "tilesetId": "",
+  "symbol": "scene_9",
+  "labelColor": "green",
+  "x": 1496,
+  "y": 1144,
   "width": 20,
   "height": 26,
-  "type": "TOPDOWN",
+  "backgroundId": "f9e82d16-54ad-480a-a846-e06a9dbbaf67",
+  "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
     "367c5da6-894f-4142-9d10-917533d9a517",
     "dmg",
-    null,
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
+    "",
     "367c5da6-894f-4142-9d10-917533d9a517"
   ],
   "spritePaletteIds": [
     "367c5da6-894f-4142-9d10-917533d9a517"
   ],
-  "collisions": "00208+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_9",
-  "x": 1496,
-  "y": 1144,
+  "autoFadeEventCollapse": true,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -163,6 +164,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
-  "labelColor": "green"
+  "collisions": "00208+"
 }

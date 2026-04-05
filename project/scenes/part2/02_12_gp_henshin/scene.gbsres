@@ -2,31 +2,32 @@
   "_resourceType": "scene",
   "id": "a3cb50ad-67d0-437e-94bd-4c23b7bb617b",
   "_index": 19,
+  "type": "TOPDOWN",
   "name": "part2/02_12_GP_Henshin",
-  "backgroundId": "f0a5236c-5fd8-46bb-aa9c-d2c9efae84fa",
-  "tilesetId": "",
+  "symbol": "scene_26",
+  "labelColor": "green",
+  "x": 1088,
+  "y": 1936,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "f0a5236c-5fd8-46bb-aa9c-d2c9efae84fa",
+  "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
     "2f2bc91a-e64c-41d6-95ba-4b671b1e7c20",
     "dmg",
-    null,
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
+    "",
     "57992d06-feda-4332-b993-396e601f9bd2"
   ],
   "spritePaletteIds": [
     "367c5da6-894f-4142-9d10-917533d9a517"
   ],
-  "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_26",
-  "x": 1088,
-  "y": 1936,
+  "autoFadeEventCollapse": true,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -456,6 +457,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
-  "labelColor": "green"
+  "collisions": ""
 }
