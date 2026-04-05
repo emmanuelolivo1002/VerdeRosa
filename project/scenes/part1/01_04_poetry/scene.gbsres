@@ -2,31 +2,32 @@
   "_resourceType": "scene",
   "id": "3f3c09cf-f7a7-4f61-a038-6ddfeae6ac22",
   "_index": 35,
+  "type": "TOPDOWN",
   "name": "part1/01_04_Poetry",
-  "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
-  "tilesetId": "",
+  "symbol": "scene_40",
+  "labelColor": "blue",
+  "x": 856,
+  "y": 648,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
+  "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
     "367c5da6-894f-4142-9d10-917533d9a517",
     "dmg",
-    null,
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
+    "",
     "367c5da6-894f-4142-9d10-917533d9a517"
   ],
   "spritePaletteIds": [
     "367c5da6-894f-4142-9d10-917533d9a517"
   ],
-  "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_40",
-  "x": 856,
-  "y": 648,
+  "autoFadeEventCollapse": false,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -173,6 +174,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": false,
-  "labelColor": "blue"
+  "collisions": ""
 }

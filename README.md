@@ -21,20 +21,17 @@ The game is primarily a **visual novel** with short gameplay segments that invol
 
 Below are selected background images from `assets/backgrounds`:
 
-### Intro
-![Intro background](assets/backgrounds/intro.png)
+<img src="assets/backgrounds/logo.png" width="320" height="288">
 
-### Cover / Press Start
-![Cover with press start](assets/backgrounds/cover-with-press-start.png)
+<img src="assets/backgrounds/cover-with-press-start.png" width="320" height="288">
 
-### Green Side Mood
-![Muralla verde background](assets/backgrounds/muralla_verde.png)
+<img src="screenshots/Xolotl.png" width="320" height="288">
 
-### Pink Side
-![Lado Rosa background](assets/backgrounds/lado-Rosa.png)
+<img src="assets/backgrounds/lado-Rosa.png" width="320" height="288">
 
-### Thank You Screen
-![Thank you background](assets/backgrounds/thank-you.png)
+<img src="screenshots/Henshin-Gameplay.png" width="320" height="288">
+
+<img src="assets/backgrounds/henshin-illustration.png" width="320" height="288">
 
 ## Repository Structure
 

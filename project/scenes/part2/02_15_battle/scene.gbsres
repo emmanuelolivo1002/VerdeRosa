@@ -2,31 +2,32 @@
   "_resourceType": "scene",
   "id": "6b4465c1-fb70-4eca-96fd-83ff4a5d5a06",
   "_index": 44,
+  "type": "TOPDOWN",
   "name": "part2/02_15_Battle",
-  "backgroundId": "f0a5236c-5fd8-46bb-aa9c-d2c9efae84fa",
-  "tilesetId": "",
+  "symbol": "scene_23",
+  "labelColor": "green",
+  "x": 1704,
+  "y": 1936,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "f0a5236c-5fd8-46bb-aa9c-d2c9efae84fa",
+  "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
     "2f2bc91a-e64c-41d6-95ba-4b671b1e7c20",
     "dmg",
-    null,
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
+    "",
     "2f2bc91a-e64c-41d6-95ba-4b671b1e7c20"
   ],
   "spritePaletteIds": [
     "2f2bc91a-e64c-41d6-95ba-4b671b1e7c20"
   ],
-  "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_23",
-  "x": 1704,
-  "y": 1936,
+  "autoFadeEventCollapse": true,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -432,6 +433,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
-  "labelColor": "green"
+  "collisions": ""
 }

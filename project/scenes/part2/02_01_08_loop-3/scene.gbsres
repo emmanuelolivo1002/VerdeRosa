@@ -2,31 +2,33 @@
   "_resourceType": "scene",
   "id": "8d67c8e4-b4e8-4e6c-bd38-91989e171c5a",
   "_index": 43,
+  "type": "TOPDOWN",
   "name": "part2/02_01_08_Loop-3",
-  "backgroundId": "da46b91f-cd0c-43bc-aebf-54177ccd77e1",
-  "tilesetId": "",
+  "symbol": "scene_45",
+  "labelColor": "green",
+  "x": 2152,
+  "y": 1272,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "da46b91f-cd0c-43bc-aebf-54177ccd77e1",
+  "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
     "367c5da6-894f-4142-9d10-917533d9a517",
     "dmg",
-    null,
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
+    "",
     "367c5da6-894f-4142-9d10-917533d9a517"
   ],
   "spritePaletteIds": [
     "367c5da6-894f-4142-9d10-917533d9a517"
   ],
-  "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_45",
-  "x": 2152,
-  "y": 1272,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "cb503cfb-a619-44d7-ae68-8e03f1642476",
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -89,7 +91,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
-  "labelColor": "green",
-  "playerSpriteSheetId": "cb503cfb-a619-44d7-ae68-8e03f1642476"
+  "collisions": "00168+"
 }

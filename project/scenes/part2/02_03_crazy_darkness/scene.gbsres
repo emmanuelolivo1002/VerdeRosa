@@ -2,31 +2,32 @@
   "_resourceType": "scene",
   "id": "b6df2eca-443d-488f-8c5f-45cb91f41224",
   "_index": 13,
+  "type": "TOPDOWN",
   "name": "part2/02_03_Crazy Darkness",
-  "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
-  "tilesetId": "",
+  "symbol": "scene_17",
+  "labelColor": "green",
+  "x": 344,
+  "y": 1640,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "b41de9d9-d1c8-485f-b400-28a610a80589",
+  "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
     "367c5da6-894f-4142-9d10-917533d9a517",
     "dmg",
-    null,
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
+    "",
     "367c5da6-894f-4142-9d10-917533d9a517"
   ],
   "spritePaletteIds": [
     "aeb46c61-5f70-43fa-9b00-ce502ea5db3d"
   ],
-  "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_17",
-  "x": 344,
-  "y": 1640,
+  "autoFadeEventCollapse": true,
   "script": [
     {
       "command": "EVENT_TEXT_DRAW",
@@ -90,6 +91,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
-  "labelColor": "green"
+  "collisions": ""
 }
